@@ -10,9 +10,9 @@
   export let rankOverall = 1;
   export let rankClass = 1;
   export let rankMode = 1;
+  export let isLive = false;
 
   const className = CLASSES[classKey].name;
-  const isLive = name === "DatModz";
   const mode = hardcore ? "Hardcore" : "Softcore";
 </script>
 
@@ -140,9 +140,10 @@
     background: var(--c1);
     border-radius: 50%;
     overflow: hidden;
-
+    
     .isLive & {
       translate: 0 -10%;
+      box-shadow: 0 0 0 2px var(--red2);
     }
   }
 

@@ -1,6 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
-
   import Streamer from '$lib/components/Streamer.svelte';
 
   import { CLASSES } from '../constants'
@@ -63,6 +61,7 @@
           rankOverall={streamer.rankOverall}
           rankClass={rankClass}
           rankMode={rankMode}
+          isLive={data.live.find((twitch) => streamer.id === twitch.user_id)}
         />
       </li>
     {/each}
