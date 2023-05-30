@@ -7,40 +7,27 @@
 
   export let data = {};
 
-  const updatedAt = 1685337930037;
-
-  let time = null;
   let selectedClass = null;
 
-  onMount(() => {
-    time = Date.now();
-  });
+  $: classesLeaderboards = (data.streamers || []).reduce((acc, curr) => {
+    if (!acc[curr.class]) acc[curr.class] = [];
+    acc[curr.class].push(curr);
+    return acc;
+  }, {})
 
-  $: update = (time - updatedAt) / 1000 / 60;
-  $: renderedSteamers = (data.streamers || []).filter((streamer) => {
-      return selectedClass ? streamer.class === selectedClass : streamer;
-    })
-    .sort((a, b) => b.level - a.level);
+  $: modeLeaderboards = (data.streamers || []).reduce((acc, curr) => {
+    if (curr.hardcore) acc.hc.push(curr);
+    else acc.sc.push(curr);
+    return acc;
+  }, { hc: [], sc: [] })
 
-  function minsToHrs(minutes) {
-    var hours = Math.floor(minutes / 60);
-    var remainingMinutes = Math.round(minutes % 60);
-    return hours + " hours " + remainingMinutes + " minutes";
-  }
+  $: renderedSteamers = (data.streamers || [])
+    .sort((a, b) => b.level - a.level)
+    .map((streamer, i) => ({ ...streamer, rankOverall: i }))
+    .filter((streamer) => selectedClass ? streamer.class === selectedClass : streamer);
 </script>
 
-<header>
-  <img src="/d4-logo.webp" alt="Diablo 4" class="hero-logo" />
-  <div>
-    <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
-    {#if time}
-      <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update} mins ago</h2>
-    {:else}
-      <h2 class="updated">...</h2>
-    {/if}
-  </div>
-</header>
-<hr />
+
 <nav >
   {#each Object.keys(CLASSES) as classKey}
     {@const className = CLASSES[classKey].name}
@@ -61,31 +48,27 @@
 </nav>
 {#if renderedSteamers.length}
   <ol>
-    {#each renderedSteamers as streamer}
+    {#each renderedSteamers as streamer (streamer.name)}
+      {@const streamerMode = streamer.hardcore ? 'hc' : 'sc'}
+      {@const rankClass = classesLeaderboards[streamer.class].findIndex((s) => s.name === streamer.name)}
+      {@const rankMode = modeLeaderboards[streamerMode].findIndex((s) => s.name === streamer.name)}
       <li>
-        <Streamer name={streamer.name} level={streamer.level} url={streamer.url} classKey={streamer.class} />
+        <Streamer
+          name={streamer.name}
+          level={streamer.level}
+          url={streamer.url}
+          classKey={streamer.class}
+          hardcore={streamer.hardcore}
+          rankOverall={streamer.rankOverall}
+          rankClass={rankClass}
+          rankMode={rankMode}
+        />
       </li>
     {/each}
   </ol>
 {/if}
 
 <style lang="scss">
-  header {
-    display: grid;
-    gap: 2rem;
-    justify-content: center;
-  }
-  .hero-logo {
-    width: 80%;
-    max-width: 22rem;
-    aspect-ratio: 92 / 43;
-    margin: 0 auto;
-  }
-  .title {
-    text-align: center;
-    font-size: 1.5rem;
-    color: var(--c4);
-  }
   nav {
     display: flex;
     gap: 2rem;
@@ -116,13 +99,6 @@
         opacity: 0;
       }
     }
-  }
-
-  .updated {
-    font-size: 1rem;
-    padding: 0;
-    text-align: center;
-    color: var(--c4);
   }
 
   ol {

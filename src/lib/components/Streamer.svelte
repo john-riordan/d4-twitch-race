@@ -5,25 +5,33 @@
   export let level = 1;
   export let url = "/";
   export let classKey = "";
+  export let hardcore = false;
+  export let rankOverall = 1;
+  export let rankClass = 1;
+  export let rankMode = 1;
 
   const className = CLASSES[classKey].name;
   const isLive = name === "DatModz";
+  const mode = hardcore ? "Hardcore" : "Softcore";
 </script>
 
-<a href={url} target="_blank" class="streamer">
+<a href={url} target="_blank" class="streamer" class:isLive>
   <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" />
   <div class="meta">
     <div class="level">
       <img src="/skill-node-bg-active.webp" alt="{className}" width="148" height="148" />
       <span class="serif">{level}</span>
     </div>
-    <div>
-      <h3 class="serif2 name">{name}</h3>
-    </div>
+    <h3 class="serif2 name">{name}</h3>
   </div>
-  {#if isLive}
+  <div class="info">
+    <div class="ranks">
+      <span>#{rankOverall + 1} Overall</span>
+      <span>#{rankClass + 1} {className}</span>
+      <span>#{rankMode + 1} {mode}</span>
+    </div>
     <span class="live">Live</span>
-  {/if}
+  </div>
 </a>
 
 <style lang="scss">
@@ -34,7 +42,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding-left: 1rem;
-    padding-right: 10rem;
+    padding-right: 1rem;
     text-decoration: none;
 
     &:hover {
@@ -60,32 +68,44 @@
       background-size: 800px;
       text-decoration: none;
       filter: brightness(0.75);
+      pointer-events: none;
     }
   }
 
   .meta {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 0.25rem;
   }
 
   .icon {
     position: absolute;
     top: 50%;
-    right: 0;
-    translate: 0% -50%;
-    width: 8rem;
-    opacity: 0.3;
+    left: 0;
+    translate: -25% -50%;
+    width: 5rem;
+    z-index: 1;
   }
 
   .level {
     position: relative;
+    width: 9.25rem;
+    height: 8rem;
 
+    img,
     span {
       position: absolute;
       top: 50%;
       left: 50%;
       translate: -50% -50%;
+    }
+    img {
+      width: 9.25rem;
+      height: 9.25rem;
+      aspect-ratio: 1;
+    }
+
+    span {
       font-size: 3rem;
       letter-spacing: 0;
       line-height: 1;
@@ -94,9 +114,27 @@
   }
 
   .name {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
+    line-height: 1;
     text-shadow: 0 3px 3px black;
     color: var(--c5);
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+  }
+  .ranks {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: right;
+
+    span {
+      display: block;
+    }
   }
 
   .live {
@@ -112,6 +150,13 @@
     letter-spacing: 0.125ch;
     padding: 0.125rem 0.5rem;
     border: 1px solid var(--twitch2);
+    opacity: 0;
+    visibility: hidden;
+
+    .isLive & {
+      opacity: 1;
+      visibility: visible;
+    }
 
     &::after {
       content: '';
