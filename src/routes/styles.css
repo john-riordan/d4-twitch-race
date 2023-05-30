@@ -151,35 +151,15 @@ h6,
   font-weight: 500;
 }
 
-dialog {
-  /* background: black; */
-  background: transparent;
-  color: inherit;
-  /* padding: 2rem; */
-  padding: 0;
-  /* border: 1px solid #323232; */
-  border: none;
-  /* max-width: 800px; */
-}
-dialog::backdrop {
-  background: hsl(0deg 0% 0% / 60%);
-  backdrop-filter: blur(5px);
-}
-
 hr {
   border: none;
   height: 8px;
   background: url(/line-break.webp) no-repeat center;
   background-size: 100%;
-  max-width: 30rem;
+  max-width: 20rem;
   width: 90%;
-}
-
-.tooltip > * {
-  pointer-events: none;
 }
 
 .app {
   display: grid;
-  /* gap: var(--padd); */
 }

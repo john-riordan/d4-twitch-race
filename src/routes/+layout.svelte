@@ -3,7 +3,7 @@
 
   import './styles.css';
 
-  const updatedAt = 1685337930037;
+  const updatedAt = 1685416195278;
 
   let time = null;
 
@@ -26,10 +26,11 @@
     <div>
       <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
       {#if time}
-        <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update} mins ago</h2>
+        <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</h2>
       {:else}
         <h2 class="updated">...</h2>
       {/if}
+      <p class="disclaimer">** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **</p>
     </div>
   </header>
   <hr />
@@ -58,27 +59,28 @@
     display: grid;
     gap: 2rem;
     justify-content: center;
+    text-align: center;
   }
   .hero-logo {
     width: 80%;
-    max-width: 16rem;
+    max-width: 12rem;
     aspect-ratio: 92 / 43;
     margin: 0 auto;
   }
   .title {
-    text-align: center;
     font-size: 1.5rem;
     color: var(--c4);
   }
   .updated {
     font-size: 1rem;
     padding: 0;
-    text-align: center;
+    color: var(--c4);
+  }
+  .disclaimer {
     color: var(--c4);
   }
 
   footer {
-    text-align: center;
     padding: 15rem 0 3rem;
     color: var(--c4);
   }

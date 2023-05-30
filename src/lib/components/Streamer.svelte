@@ -33,9 +33,15 @@
   </div>
   <div class="info">
     <div class="ranks">
-      <div class="rank"><span class="val">#{rankOverall + 1}</span> <span class="label">Overall</span></div>
-      <div class="rank"><span class="val">#{rankMode + 1}</span> <span class="label">{mode}</span></div>
-      <div class="rank"><span class="val">#{rankClass + 1}</span> <span class="label">{className}</span></div>
+      <div class="rank" class:high={rankOverall + 1 <= 3}>
+        <span class="val">#{rankOverall + 1}</span> <span class="label">Overall</span>
+      </div>
+      <div class="rank" class:high={rankMode + 1 <= 3}>
+        <span class="val">#{rankMode + 1}</span> <span class="label">{mode}</span>
+      </div>
+      <div class="rank" class:high={rankClass + 1 <= 3}>
+        <span class="val">#{rankClass + 1}</span> <span class="label">{className}</span>
+      </div>
     </div>
   </div>
 </a>
@@ -161,6 +167,10 @@
 
     .rank {
       width: 7ch;
+
+      &:not(.high) {
+        opacity: 0.6;
+      }
     }
     span {
       display: block;

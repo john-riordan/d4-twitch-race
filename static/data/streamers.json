@@ -160,5 +160,37 @@
     "url": "https://twitch.tv/carn_",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
     "id": "19013029"
+  },
+  {
+    "name": "Towelliee",
+    "level": 1,
+    "class": "barb",
+    "hardcore": true,
+    "url": "https://twitch.tv/towelliee",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg"
+  },
+  {
+    "name": "Nugiyen",
+    "level": 1,
+    "class": "rogue",
+    "hardcore": true,
+    "url": "https://twitch.tv/nugiyen",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png"
+  },
+  {
+    "name": "Mr Llama",
+    "level": 1,
+    "class": "barb",
+    "hardcore": true,
+    "url": "https://twitch.tv/mrllamasc",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1db3d44-3bff-414c-8fb5-e9f74ae9cc20-profile_image-70x70.png"
+  },
+  {
+    "name": "PsHero",
+    "level": 1,
+    "class": "rogue",
+    "hardcore": true,
+    "url": "https://twitch.tv/psherotv",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/09ecf1ff-fde7-4257-895b-a5731435c575-profile_image-70x70.png"
   }
 ]
