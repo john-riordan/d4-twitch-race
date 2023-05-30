@@ -3,108 +3,126 @@
     "name": "DatModz",
     "level": 37,
     "class": "druid",
-    "url": "https://www.twitch.tv/datmodz"
+    "url": "https://twitch.tv/datmodz",
+    "id": "24124090"
   },
   {
     "name": "Quin69",
     "level": 16,
     "class": "druid",
-    "url": "https://www.twitch.tv/quin69"
+    "url": "https://twitch.tv/quin69",
+    "id": "56649026"
   },
   {
     "name": "Kripp",
     "level": 88,
     "class": "sorc",
-    "url": "https://www.twitch.tv/nl_kripp"
+    "url": "https://twitch.tv/nl_kripp",
+    "id": "29795919"
   },
   {
     "name": "Alkaizer",
     "level": 44,
     "class": "barb",
-    "url": "https://www.twitch.tv/alkaizerx"
+    "url": "https://twitch.tv/alkaizerx",
+    "id": "35916854"
   },
   {
     "name": "Shroud",
     "level": 63,
     "class": "druid",
-    "url": "https://www.twitch.tv/shroud "
+    "url": "https://twitch.tv/shroud",
+    "id": "37402112"
   },
   {
     "name": "TL Max",
     "level": 63,
     "class": "druid",
-    "url": "https://www.twitch.tv/maximum "
+    "url": "https://twitch.tv/maximum",
+    "id": "42490770"
   },
   {
     "name": "Wudijo",
     "level": 63,
     "class": "rogue",
-    "url": "https://www.twitch.tv/wudijo "
+    "url": "https://twitch.tv/wudijo",
+    "id": "61438909"
   },
   {
     "name": "Raxxanterax",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/raxxanterax "
+    "url": "https://twitch.tv/raxxanterax",
+    "id": "24482705"
   },
   {
     "name": "Don the Crown",
     "level": 63,
     "class": "druid",
-    "url": "https://www.twitch.tv/donthecrown "
+    "url": "https://twitch.tv/donthecrown",
+    "id": "29524672"
   },
   {
     "name": "Kanon",
     "level": 63,
     "class": "rogue",
-    "url": "https://www.twitch.tv/kanonxo "
+    "url": "https://twitch.tv/kanonxo",
+    "id": "69214305"
   },
   {
     "name": "Asmongold",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/zackrawrr "
+    "url": "https://twitch.tv/zackrawrr",
+    "id": "552120296"
   },
   {
     "name": "Zizaran",
     "level": 63,
     "class": "sorc",
-    "url": "https://www.twitch.tv/zizaran "
+    "url": "https://twitch.tv/zizaran",
+    "id": "36483360"
   },
   {
     "name": "Lirik",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/lirik "
+    "url": "https://twitch.tv/lirik",
+    "id": "23161357"
   },
   {
     "name": "Sequisha",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/sequisha "
+    "url": "https://twitch.tv/sequisha",
+    "id": "25458544"
   },
   {
     "name": "Mathil",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/mathil1 "
+    "url": "https://twitch.tv/mathil1",
+    "id": "25575995"
   },
   {
     "name": "Steelmage",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/steelmage "
+    "url": "https://twitch.tv/steelmage",
+    "id": "57317154"
   },
   {
     "name": "tytykiller",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/tytykiller "
+    "url": "https://twitch.tv/tytykiller",
+    "id": "78841595"
   },
   {
     "name": "Carn",
     "level": 63,
     "class": "barb",
-    "url": "https://www.twitch.tv/carn_ "
+    "url": "https://twitch.tv/carn_",
+    "id": "19013029"
   }
 ]
