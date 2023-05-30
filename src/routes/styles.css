@@ -12,14 +12,14 @@
   --c3: #2c2c2c;
   --c4: #666363;
   --c5: #dad2ca;
-  --red: #560300;
+  --red1: #560300;
+  --red2: #962203;
   --twitch1: #351f56;
   --twitch2: #772ce8;
 
-  /* font-family: 'Alegreya Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-
-  font-family: ui-serf, serif;
+  font-family: 'Alegreya Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 *,

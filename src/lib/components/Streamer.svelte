@@ -4,6 +4,7 @@
   export let name = 'Name';
   export let level = 1;
   export let url = "/";
+  export let avatar = "";
   export let classKey = "";
   export let hardcore = false;
   export let rankOverall = 1;
@@ -19,8 +20,14 @@
   <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" />
   <div class="meta">
     <div class="level">
-      <img src="/skill-node-bg-active.webp" alt="{className}" width="148" height="148" />
-      <span class="serif">{level}</span>
+      <img src="/skill-node-bg-active.webp" alt="{className}" width="132" height="132" />
+      <span class="serif2">{level}</span>
+    </div>
+    <div class="avatar-container">
+      <div class="avatar">
+        <img src="{avatar}" alt="{name}" width="60" height="60" />
+      </div>
+      <span class="live">Live</span>
     </div>
     <h3 class="serif2 name">{name}</h3>
   </div>
@@ -30,7 +37,6 @@
       <span>#{rankClass + 1} {className}</span>
       <span>#{rankMode + 1} {mode}</span>
     </div>
-    <span class="live">Live</span>
   </div>
 </a>
 
@@ -41,8 +47,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
     text-decoration: none;
 
     &:hover {
@@ -76,21 +81,22 @@
     position: relative;
     display: flex;
     align-items: center;
+    gap: 0.5rem;
   }
 
   .icon {
     position: absolute;
     top: 50%;
     left: 0;
-    translate: -25% -50%;
-    width: 5rem;
+    translate: 13% -50%;
+    width: 4rem;
     z-index: 1;
   }
 
   .level {
     position: relative;
-    width: 9.25rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
 
     img,
     span {
@@ -100,16 +106,37 @@
       translate: -50% -50%;
     }
     img {
-      width: 9.25rem;
-      height: 9.25rem;
+      --img-size: 8.5rem;
+      width: var(--img-size);
+      height: var(--img-size);
+      min-width: var(--img-size);
+      min-height: var(--img-size);
       aspect-ratio: 1;
     }
 
     span {
-      font-size: 3rem;
-      letter-spacing: 0;
+      padding-top: 4px;
+      padding-right: 7px;
+      font-size: 3.5rem;
+      letter-spacing: -7px;
       line-height: 1;
-      padding-bottom: 0.125em;
+    }
+  }
+
+  .avatar-container {
+    position: relative;
+  }
+  .avatar {
+    --img-size: 3rem;
+    position: relative;
+    width: var(--img-size);
+    height: var(--img-size);
+    background: var(--c1);
+    border-radius: 50%;
+    overflow: hidden;
+
+    .isLive & {
+      translate: 0 -10%;
     }
   }
 
@@ -138,18 +165,22 @@
   }
 
   .live {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: var(--twitch1);
+    bottom: 0;
+    left: 50%;
+    translate: -50% 20%;
+    padding: 0 0.25rem;
+    background: var(--red1);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: white;
+    font-size: 0.75rem;
     letter-spacing: 0.125ch;
-    padding: 0.125rem 0.5rem;
-    border: 1px solid var(--twitch2);
+    border: 1px solid var(--red2);
     opacity: 0;
     visibility: hidden;
 
@@ -158,13 +189,13 @@
       visibility: visible;
     }
 
-    &::after {
+    /* &::after {
       content: '';
       display: block;
-      width: 0.75rem;
-      height: 0.75rem;
-      background: red;
+      width: 0.5rem;
+      height: 0.5rem;
+      background: #ff0053;
       border-radius: 50%;
-    }
+    } */
   }
 </style>

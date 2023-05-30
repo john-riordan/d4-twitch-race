@@ -57,6 +57,7 @@
           name={streamer.name}
           level={streamer.level}
           url={streamer.url}
+          avatar={streamer.avatar}
           classKey={streamer.class}
           hardcore={streamer.hardcore}
           rankOverall={streamer.rankOverall}
@@ -103,6 +104,7 @@
 
   ol {
     display: grid;
+    gap: 1rem;
     list-style: none;
     margin: 0;
     padding: 0;
