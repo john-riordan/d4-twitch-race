@@ -1,7 +1,7 @@
 [
   {
     "name": "DatModz",
-    "level": 37,
+    "level": 1,
     "class": "druid",
     "hardcore": true,
     "url": "https://twitch.tv/datmodz",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Quin69",
-    "level": 16,
+    "level": 1,
     "class": "druid",
     "hardcore": true,
     "url": "https://twitch.tv/quin69",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Kripp",
-    "level": 88,
+    "level": 1,
     "class": "sorc",
     "hardcore": true,
     "url": "https://twitch.tv/nl_kripp",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Alkaizer",
-    "level": 44,
+    "level": 1,
     "class": "barb",
     "hardcore": true,
     "url": "https://twitch.tv/alkaizerx",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Shroud",
-    "level": 63,
+    "level": 1,
     "class": "druid",
     "hardcore": true,
     "url": "https://twitch.tv/shroud",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Maximum",
-    "level": 63,
+    "level": 1,
     "class": "druid",
     "hardcore": true,
     "url": "https://twitch.tv/maximum",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Wudijo",
-    "level": 63,
+    "level": 1,
     "class": "rogue",
     "hardcore": true,
     "url": "https://twitch.tv/wudijo",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Raxxanterax",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": false,
     "url": "https://twitch.tv/raxxanterax",
@@ -73,7 +73,7 @@
   },
   {
     "name": "DonTheCrown",
-    "level": 63,
+    "level": 1,
     "class": "druid",
     "hardcore": false,
     "url": "https://twitch.tv/donthecrown",
@@ -82,7 +82,7 @@
   },
   {
     "name": "Kanon",
-    "level": 63,
+    "level": 1,
     "class": "rogue",
     "hardcore": false,
     "url": "https://twitch.tv/kanonxo",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Asmongold",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": false,
     "url": "https://twitch.tv/zackrawrr",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Zizaran",
-    "level": 63,
+    "level": 1,
     "class": "sorc",
     "hardcore": true,
     "url": "https://twitch.tv/zizaran",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Lirik",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": false,
     "url": "https://twitch.tv/lirik",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Sequisha",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": true,
     "url": "https://twitch.tv/sequisha",
@@ -127,7 +127,7 @@
   },
   {
     "name": "Mathil",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": false,
     "url": "https://twitch.tv/mathil1",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Steelmage",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": true,
     "url": "https://twitch.tv/steelmage",
@@ -145,7 +145,7 @@
   },
   {
     "name": "tytykiller",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": true,
     "url": "https://twitch.tv/tytykiller",
@@ -154,7 +154,7 @@
   },
   {
     "name": "Carn",
-    "level": 63,
+    "level": 1,
     "class": "barb",
     "hardcore": true,
     "url": "https://twitch.tv/carn_",

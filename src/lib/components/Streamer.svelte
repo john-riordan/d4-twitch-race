@@ -33,9 +33,9 @@
   </div>
   <div class="info">
     <div class="ranks">
-      <span>#{rankOverall + 1} Overall</span>
-      <span>#{rankClass + 1} {className}</span>
-      <span>#{rankMode + 1} {mode}</span>
+      <div class="rank"><span class="val">#{rankOverall + 1}</span> <span class="label">Overall</span></div>
+      <div class="rank"><span class="val">#{rankMode + 1}</span> <span class="label">{mode}</span></div>
+      <div class="rank"><span class="val">#{rankClass + 1}</span> <span class="label">{className}</span></div>
     </div>
   </div>
 </a>
@@ -81,7 +81,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .icon {
@@ -141,7 +141,7 @@
   }
 
   .name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 1;
     text-shadow: 0 3px 3px black;
     color: var(--c5);
@@ -157,10 +157,20 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    text-align: right;
+    text-align: center;
 
+    .rank {
+      width: 7ch;
+    }
     span {
       display: block;
+    }
+    .val {
+      font-size: 1.75rem;
+    }
+    .label {
+      color: var(--c4);
+      font-size: 0.875rem;
     }
   }
 
