@@ -83,5 +83,6 @@
   footer {
     padding: 15rem 0 3rem;
     color: var(--c4);
+    text-align: center;
   }
 </style>

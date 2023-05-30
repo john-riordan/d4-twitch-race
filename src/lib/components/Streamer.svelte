@@ -17,12 +17,13 @@
 </script>
 
 <a href={url} target="_blank" class="streamer" class:isLive>
-  <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" />
   <div class="meta">
     <div class="level">
-      <img src="/skill-node-bg-active.webp" alt="{className}" width="132" height="132" />
-      <span class="serif2">{level}</span>
+      <img src="/lvl-bg.webp" alt="{className}" width="132" height="132" />
+      <span class="serif2 val">{level}</span>
+      <span class="serif label">Lvl</span>
     </div>
+    <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" />
     <div class="avatar-container">
       <div class="avatar">
         <img src="{avatar}" alt="{name}" width="60" height="60" />
@@ -53,15 +54,11 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-left: 4rem;
     text-decoration: none;
 
     &:hover {
       &::before {
         filter: brightness(1);
-      }
-      .icon {
-        opacity: 1;
       }
     }
 
@@ -91,11 +88,7 @@
   }
 
   .icon {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    translate: 13% -50%;
-    width: 4rem;
+    width: 5rem;
     z-index: 1;
   }
 
@@ -105,14 +98,15 @@
     height: 7rem;
 
     img,
-    span {
+    .val,
+    .label {
       position: absolute;
       top: 50%;
       left: 50%;
       translate: -50% -50%;
     }
     img {
-      --img-size: 8.5rem;
+      --img-size: 9.5rem;
       width: var(--img-size);
       height: var(--img-size);
       min-width: var(--img-size);
@@ -120,12 +114,21 @@
       aspect-ratio: 1;
     }
 
-    span {
+    .val {
       padding-top: 4px;
       padding-right: 7px;
       font-size: 3.5rem;
       letter-spacing: -7px;
       line-height: 1;
+      text-shadow: 0 2px 5px black;
+      translate: -50% -44%;
+    }
+    .label {
+      top: 13%;
+      left: 50%;
+      translate: -50% 0%;
+      /* font-size: 0.75rem; */
+      text-shadow: 0 2px 5px black;
     }
   }
 
