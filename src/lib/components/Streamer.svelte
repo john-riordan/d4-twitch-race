@@ -127,7 +127,7 @@
       top: 13%;
       left: 50%;
       translate: -50% 0%;
-      /* font-size: 0.75rem; */
+      font-size: 0.75rem;
       text-shadow: 0 2px 5px black;
     }
   }

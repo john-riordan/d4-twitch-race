@@ -20,3 +20,6 @@ export const CLASSES = {
     nickname: 'necro',
   },
 };
+
+export const GAME_ID = '515024';
+export const GAME_NAME = 'Diablo IV';

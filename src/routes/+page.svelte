@@ -1,7 +1,7 @@
 <script>
   import Streamer from '$lib/components/Streamer.svelte';
 
-  import { CLASSES } from '../constants'
+  import { CLASSES, GAME_ID } from '../constants'
 
   export let data = {};
 
@@ -61,7 +61,7 @@
           rankOverall={streamer.rankOverall}
           rankClass={rankClass}
           rankMode={rankMode}
-          isLive={data.live.find((twitch) => streamer.id === twitch.user_id)}
+          isLive={data.live.find((twitch) => streamer.id === twitch.user_id && twitch.game_id === GAME_ID)}
         />
       </li>
     {/each}
