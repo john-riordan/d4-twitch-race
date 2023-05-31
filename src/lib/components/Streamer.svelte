@@ -23,7 +23,7 @@
       <span class="serif2 val">{level}</span>
       <span class="serif label">Lvl</span>
     </div>
-    <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" />
+    <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" loading="lazy" />
     <div class="avatar-container">
       <div class="avatar">
         <img src="{avatar}" alt="{name}" width="60" height="60" />

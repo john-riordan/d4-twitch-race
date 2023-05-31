@@ -27,11 +27,11 @@
       <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
       <br />
       {#if time}
-        <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</h2>
+        <h2 class="updated">Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u></h2>
       {:else}
         <h2 class="updated">...</h2>
       {/if}
-      <p class="disclaimer">** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **</p>
+      <p class="disclaimer">** This is a <u>manually updated and curated list</u>. If your favorite streamer isn't on here I'm sorry **</p>
     </div>
   </header>
   <hr />
@@ -42,7 +42,7 @@
   </footer>  
 </main>
 
-<style>
+<style lang="scss">
   .app {
     container-type: inline-size;
     container-name: app;
@@ -53,6 +53,10 @@
     margin: 0 auto;
     padding-top: 2rem;
     z-index: 2;
+
+    @media (max-width: 600px) {
+      gap: 1rem;
+    }
   }
 
   header {
@@ -60,12 +64,20 @@
     gap: 2rem;
     justify-content: center;
     text-align: center;
+
+    @container app (max-width: 600px) {
+      gap: 1rem;
+    }
   }
   .hero-logo {
     width: 80%;
     max-width: 12rem;
     aspect-ratio: 92 / 43;
     margin: 0 auto;
+
+    @container app (max-width: 600px) {
+      max-width: 5rem;
+    }
   }
   .title {
     font-size: 1.5rem;

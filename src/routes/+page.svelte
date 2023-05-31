@@ -152,6 +152,10 @@
       img {
         width: var(--img-size);
         height: var(--img-size);
+
+        @container app (max-width: 600px) {
+          --img-size: 2.5rem;
+        }
       }
       .hover {
         position: absolute;
@@ -189,7 +193,7 @@
 
   ol {
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     list-style: none;
     margin: 0;
     padding: 0;
