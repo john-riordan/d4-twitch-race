@@ -1,9 +1,8 @@
 <script>
   import { onMount } from 'svelte';
 
+  import { UPDATED } from '../constants';
   import './styles.css';
-
-  const updatedAt = 1685416195278;
 
   let time = null;
 
@@ -11,7 +10,7 @@
     time = Date.now();
   });
 
-  $: update = (time - updatedAt) / 1000 / 60;
+  $: update = (time - UPDATED) / 1000 / 60;
 
   function minsToHrs(minutes) {
     var hours = Math.floor(minutes / 60);
