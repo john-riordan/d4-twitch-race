@@ -22,7 +22,7 @@
 
 <main class="app">
   <header>
-    <img src="/d4-logo.webp" alt="Diablo 4" class="hero-logo" />
+    <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
     <div>
       <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
       <br />
@@ -71,7 +71,7 @@
   }
   .hero-logo {
     width: 80%;
-    max-width: 12rem;
+    max-width: 13rem;
     aspect-ratio: 92 / 43;
     margin: 0 auto;
 

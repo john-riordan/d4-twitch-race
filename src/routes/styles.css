@@ -59,7 +59,7 @@ body {
   margin: 0;
   min-height: 100vh;
   min-height: 100dvh;
-  background: url('/background.webp') no-repeat center black;
+  background: url('/background-sm.webp') no-repeat center black;
   background-size: 2000px;
   background-attachment: fixed;
   color: var(--c5);
