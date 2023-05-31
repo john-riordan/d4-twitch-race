@@ -87,7 +87,7 @@
       opacity: 0.75;
 
       @container streamer (max-width: 700px) {
-        background-size: 650px;
+        background-size: 560px;
       }
       @container streamer (max-width: 400px) {
         background-size: 400px;
@@ -101,6 +101,9 @@
     align-items: center;
     gap: 1rem;
 
+    @container streamer (min-width: 880px) {
+      gap: 2rem;
+    }
     @container streamer (max-width: 700px) {
       gap: 0.5rem;
     }
@@ -214,7 +217,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
 
-
+    @container streamer (min-width: 880px) {
+      font-size: 1.75rem;
+      width: 12ch;
+    }
     @container streamer (max-width: 700px) and (min-width: 401px) {
       font-size: 1.25rem;
     }

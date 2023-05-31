@@ -140,24 +140,27 @@
       height: var(--img-size);
       font-size: 1.25rem;
 
-      &:hover,
-      &.active {
+      &:not(.check):hover,
+      &:not(.check).active {
         > span {
           translate: -50% -150%;
           opacity: 1;
         }
+      }
 
+      &:hover,
+      &.active {
         .hover {
           opacity: 1;
         }
       }
-      &:hover {
+      &:not(.check):hover {
         > span {
           opacity: 1 !important;
         }
       }
 
-      > span {
+      &:not(.check) > span {
         position: absolute;
         top: 0;
         left: 50%;
