@@ -23,9 +23,10 @@
     });
 
     onMount(async () => {
+      if (!$page.data?.streamed) return;
       Promise.resolve($page.data?.streamed?.live).then(async (data) => {
-        const json = await data.json();
-        liveStreamers.set(json.data);
+        const json = await data?.json();
+        if (json.data) liveStreamers.set(json.data);
       });
     });
 </script>
