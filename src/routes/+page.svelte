@@ -55,7 +55,7 @@
         class="serif"
         class:active
         title={className}
-        on:click={() => {
+        on:mousedown={() => {
           if (selectedClass === classKey) selectedClass = null;
           else selectedClass = classKey;
         }}
@@ -80,7 +80,7 @@
     <button
       class="check"
       class:active={selectedMode === 'sc'}
-      on:click={() => {
+      on:mousedown={() => {
         if (selectedMode === 'sc') selectedMode = null;
         else selectedMode = 'sc'
       }}
@@ -90,7 +90,7 @@
     <button
       class="check"
       class:active={selectedMode === 'hc'}
-      on:click={() => {
+      on:mousedown={() => {
         if (selectedMode === 'hc') selectedMode = null;
         else selectedMode = 'hc'
       }}
@@ -99,9 +99,6 @@
     </button>
   </div>
 </nav>
-
-
-
 {#if renderedSteamers.length}
   <ol>
     {#each renderedSteamers as streamer, index (streamer.name)}
@@ -167,6 +164,7 @@
       img {
         width: var(--img-size);
         height: var(--img-size);
+        opacity: 0.75;
 
         @container app (max-width: 600px) {
           --img-size: 2.5rem;
