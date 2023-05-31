@@ -4,6 +4,8 @@
   import { UPDATED } from '../constants';
   import './styles.css';
 
+  export const prerender = true;
+
   let time = null;
 
   onMount(() => {
