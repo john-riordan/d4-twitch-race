@@ -5,8 +5,8 @@ export async function load({ fetch }) {
 
   return {
     streamers,
-    streamed: {
-      live: fetch('/api/live'),
-    },
+    // streamed: {
+    //   live: fetch('/api/live'),
+    // },
   };
 }
