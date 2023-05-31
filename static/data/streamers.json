@@ -205,5 +205,14 @@
     "url": "https://twitch.tv/rob2628",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
     "id": "36998510"
+  },
+  {
+    "name": "ds_lily",
+    "level": 1,
+    "class": "sorc",
+    "hardcore": true,
+    "url": "https://twitch.tv/ds_lily",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a7ec8d0-9a46-4abd-9cb0-5d45cf5e49e7-profile_image-70x70.png",
+    "id": "144926827"
   }
 ]

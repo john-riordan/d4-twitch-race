@@ -16,7 +16,7 @@
   const className = CLASSES[classKey].name;
 </script>
 
-<a href={url} target="_blank" class="streamer" class:isLive>
+<a href={url} target="_blank" class="streamer" class:isLive class:hardcore>
   <div class="meta">
     <!-- <h5 class="rank serif2">{rank + 1}</h5> -->
     <div class="level">
@@ -38,6 +38,7 @@
       </div>
     </div>
     <h3 class="serif2 name">{name}</h3>
+    <div class="skull">💀</div>
     <span class="live">Live</span>
   </div>
   <div class="info">
@@ -280,6 +281,17 @@
     visibility: hidden;
 
     .isLive & {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .skull {
+    font-size: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+
+    .hardcore & {
       opacity: 1;
       visibility: visible;
     }
