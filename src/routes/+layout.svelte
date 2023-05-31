@@ -25,6 +25,7 @@
     <img src="/d4-logo.webp" alt="Diablo 4" class="hero-logo" />
     <div>
       <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
+      <br />
       {#if time}
         <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</h2>
       {:else}
@@ -48,7 +49,6 @@
     position: relative;
     display: grid;
     gap: 2rem;
-    width: 95vw;
     max-width: 55rem;
     margin: 0 auto;
     padding-top: 2rem;
@@ -70,6 +70,10 @@
   .title {
     font-size: 1.5rem;
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 1rem;
+    }
   }
   .updated {
     font-size: 1rem;

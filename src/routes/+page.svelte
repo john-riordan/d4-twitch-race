@@ -35,52 +35,57 @@
 </script>
 
 <nav>
-  {#each Object.keys(CLASSES) as classKey}
-    {@const className = CLASSES[classKey].name}
-    {@const active = selectedClass === classKey}
+  <div class="controls">
+    {#each Object.keys(CLASSES) as classKey}
+      {@const className = CLASSES[classKey].name}
+      {@const active = selectedClass === classKey}
+      <button
+        class="serif"
+        class:active
+        title={className}
+        on:click={() => {
+          if (selectedClass === classKey) selectedClass = null;
+          else selectedClass = classKey;
+        }}
+      >
+        <img
+          src="/d4-classes-icon-{classKey}-base.webp"
+          alt={className}
+          width="80"
+          height="80"
+        />
+        <img
+          src="/d4-classes-icon-{classKey}-hover.webp"
+          class="hover"
+          alt={className}
+          width="80"
+          height="80"
+        />
+      </button>
+    {/each}
+  </div>
+  <div class="controls">
     <button
-      class="serif"
-      class:active
-      title={className}
+      class="check"
+      class:active={selectedMode === 'sc'}
       on:click={() => {
-        if (selectedClass === classKey) selectedClass = null;
-        else selectedClass = classKey;
+        if (selectedMode === 'sc') selectedMode = null;
+        else selectedMode = 'sc'
       }}
     >
-      <img
-        src="/d4-classes-icon-{classKey}-base.webp"
-        alt={className}
-        width="80"
-        height="80"
-      />
-      <img
-        src="/d4-classes-icon-{classKey}-hover.webp"
-        class="hover"
-        alt={className}
-        width="80"
-        height="80"
-      />
+      <span>Softcore</span>
     </button>
-  {/each}
-  <div />
-  <div />
-  <div />
-  <button
-    on:click={() => {
-      if (selectedMode === 'sc') selectedMode = null;
-      else selectedMode = 'sc'
-    }}
-  >
-    Softcore
-  </button>
-  <button
-    on:click={() => {
-      if (selectedMode === 'hc') selectedMode = null;
-      else selectedMode = 'hc'
-    }}
-  >
-    Hardcore
-  </button>
+    <button
+      class="check"
+      class:active={selectedMode === 'hc'}
+      on:click={() => {
+        if (selectedMode === 'hc') selectedMode = null;
+        else selectedMode = 'hc'
+      }}
+    >
+      <span>Hardcore</span>
+    </button>
+  </div>
 </nav>
 {#if renderedSteamers.length}
   <ol>
@@ -112,12 +117,25 @@
 
 <style lang="scss">
   nav {
+    container-type: inline-size;
+    container-name: nav;
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
     justify-content: center;
 
+    @container app (max-width: 700px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+
     button {
-      --img-size: 4rem;
+      --img-size: 3.5rem;
       position: relative;
       display: flex;
       align-items: center;
@@ -140,6 +158,32 @@
         left: 0;
         opacity: 0;
       }
+
+      &.check {
+        gap: 0.25rem;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &::after {
+          content: '';
+          width: 44px;
+          height: 44px;
+          background: url('/checkbox_empty.webp') no-repeat center;
+          background-size: 44px;
+        }
+
+        &.active {
+          opacity: 1;
+
+          &::after {
+            background: url('/checkbox_filled.webp') no-repeat center;
+            background-size: 44px;
+          }
+        }
+      }
     }
   }
 
@@ -149,5 +193,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
+    li {
+      container-type: inline-size;
+      container-name: streamer;
+    }
   }
 </style>

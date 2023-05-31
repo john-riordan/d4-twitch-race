@@ -56,6 +56,16 @@
     gap: 1rem;
     text-decoration: none;
 
+    @container streamer (max-width: 700px) {
+      gap: 0.5rem;
+      padding: 0 0.75rem;
+    }
+    @container streamer (max-width: 400px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+    }
+
     &:hover {
       &::before {
         filter: brightness(1);
@@ -77,6 +87,15 @@
       text-decoration: none;
       filter: brightness(0.75);
       pointer-events: none;
+
+      @container streamer (max-width: 700px) {
+        background-size: 650px;
+        opacity: 0.75;
+      }
+      @container streamer (max-width: 400px) {
+        background-size: 1000px;
+        background-position: 90% center;
+      }
     }
   }
 
@@ -85,17 +104,33 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    @container streamer (max-width: 700px) {
+      gap: 0.5rem;
+    }
   }
 
   .icon {
     width: 5rem;
     z-index: 1;
+
+    @container streamer (max-width: 700px) {
+      width: 2.5rem;
+    }
+    @container streamer (max-width: 500px) {
+      width: 1.75rem;
+    }
   }
 
   .level {
     position: relative;
     width: 7rem;
     height: 7rem;
+
+    @container streamer (max-width: 700px) {
+      width: 3rem;
+      height: 4rem;
+    }
 
     img,
     .val,
@@ -112,6 +147,13 @@
       min-width: var(--img-size);
       min-height: var(--img-size);
       aspect-ratio: 1;
+
+      @container streamer (max-width: 700px) {
+        --img-size: 6rem;
+      }
+      @container streamer (max-width: 500px) {
+        --img-size: 5rem;
+      }
     }
 
     .val {
@@ -122,6 +164,13 @@
       line-height: 1;
       text-shadow: 0 2px 5px black;
       translate: -50% -44%;
+
+      @container streamer (max-width: 700px) {
+        font-size: 3rem;
+      }
+      @container streamer (max-width: 500px) {
+        font-size: 2.5rem;
+      }
     }
     .label {
       top: 13%;
@@ -129,6 +178,10 @@
       translate: -50% 0%;
       font-size: 0.75rem;
       text-shadow: 0 2px 5px black;
+
+      @container streamer (max-width: 700px) {
+        top: 7%;
+      }
     }
   }
 
@@ -148,6 +201,13 @@
       translate: 0 -10%;
       box-shadow: 0 0 0 2px var(--red2);
     }
+
+    @container streamer (max-width: 700px) {
+      --img-size: 2rem;
+    }
+    @container streamer (max-width: 500px) {
+      --img-size: 1.5rem;
+    }
   }
 
   .name {
@@ -155,6 +215,20 @@
     line-height: 1;
     text-shadow: 0 3px 3px black;
     color: var(--c5);
+
+    @container streamer (max-width: 700px) and (min-width: 401px) {
+      font-size: 1.25rem;
+      width: 7ch;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    @container streamer (max-width: 500px) and (min-width: 401px) {
+      font-size: 1rem;
+      width: 6ch;
+    }
+    @container streamer (max-width: 400px) {
+      font-size: 1.25rem;
+    }
   }
 
   .info {
@@ -162,6 +236,10 @@
     align-items: center;
     gap: 1.5rem;
     
+    @container streamer (max-width: 400px) {
+      padding-left: 7rem;
+      translate: 0 -26%;
+    }
   }
   .ranks {
     display: flex;
@@ -169,18 +247,27 @@
     gap: 1.5rem;
     text-align: center;
 
+    @container streamer (max-width: 700px) {
+      gap: 0.25rem;
+    }
+
     .rank {
       width: 7ch;
 
-      &:not(.high) {
+      /* &:not(.high) {
         opacity: 0.6;
-      }
+      } */
     }
     span {
       display: block;
     }
     .val {
       font-size: 1.75rem;
+
+      @container streamer (max-width: 700px) {
+        font-size: 1.25rem;
+        line-height: 1;
+      }
     }
     .label {
       color: var(--c4);
@@ -211,6 +298,11 @@
     .isLive & {
       opacity: 1;
       visibility: visible;
+    }
+
+    @container streamer (max-width: 700px) {
+      translate: -50% 60%;
+      font-size: 0.5rem;
     }
 
     /* &::after {
