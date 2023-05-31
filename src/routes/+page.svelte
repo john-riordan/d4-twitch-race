@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { flip } from 'svelte/animate';
   import { page } from '$app/stores';
 
   import Streamer from '$lib/components/Streamer.svelte';
@@ -27,11 +28,10 @@
         liveStreamers.set(json.data);
       });
     });
-
-  
 </script>
 
 <nav>
+  <span class="serif">Filter</span>
   <div class="controls">
     {#each Object.keys(CLASSES) as classKey}
       {@const className = CLASSES[classKey].name}
@@ -57,7 +57,9 @@
           alt={className}
           width="80"
           height="80"
+          loading="lazy"
         />
+        <span>{className} Only</span>
       </button>
     {/each}
   </div>
@@ -84,32 +86,31 @@
     </button>
   </div>
 </nav>
-{#if renderedSteamers.length}
-  <ol>
-    {#each renderedSteamers as streamer, index (streamer.name)}
-      <li>
-        <Streamer
-          rank={index}
-          id={streamer.id}
-          name={streamer.name}
-          level={streamer.level}
-          url={streamer.url}
-          avatar={streamer.avatar}
-          classKey={streamer.class}
-          hardcore={streamer.hardcore}
-        />
-      </li>
-    {/each}
-  </ol>
-{/if}
+<ol>
+  {#each renderedSteamers as streamer, index (streamer.name)}
+    <li animate:flip={{ duration: 250 }}>
+      <Streamer
+        rank={index}
+        id={streamer.id}
+        name={streamer.name}
+        level={streamer.level}
+        url={streamer.url}
+        avatar={streamer.avatar}
+        classKey={streamer.class}
+        hardcore={streamer.hardcore}
+      />
+    </li>
+  {/each}
+</ol>
 
 <style lang="scss">
   nav {
     container-type: inline-size;
     container-name: nav;
     display: flex;
-    gap: 2rem;
+    align-items: center;
     justify-content: center;
+    gap: 2rem;
 
     @container app (max-width: 700px) {
       flex-direction: column;
@@ -120,6 +121,15 @@
       display: flex;
       gap: 0.5rem;
       justify-content: center;
+
+      &:hover button.active > span {
+        opacity: 0;
+      }
+    }
+
+    > span {
+      color: var(--c4);
+      
     }
 
     button {
@@ -132,9 +142,30 @@
 
       &:hover,
       &.active {
+        > span {
+          translate: -50% -150%;
+          opacity: 1;
+        }
+
         .hover {
           opacity: 1;
         }
+      }
+      &:hover {
+        > span {
+          opacity: 1 !important;
+        }
+      }
+
+      > span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        white-space: nowrap;
+        font-size: 0.75rem;
+        translate: -50% -50%;
+        opacity: 0;
+        transition: all 150ms ease-out;
       }
 
       img {
@@ -181,11 +212,13 @@
   }
 
   ol {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0.5rem;
     list-style: none;
     margin: 0;
     padding: 0;
+    min-height: 20vh;
 
     li {
       container-type: inline-size;

@@ -11,9 +11,7 @@
   export let classKey = "";
   export let hardcore = false;
 
-  const isLive = true;
-
-  // $: isLive = $liveStreamers.find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
+  $: isLive = $liveStreamers.find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
 
   const className = CLASSES[classKey].name;
 </script>
@@ -26,7 +24,14 @@
       <span class="serif2 val">{level}</span>
       <span class="serif label">Lvl</span>
     </div>
-    <img src="/{classKey}-icon.png" alt="{className}" class="icon" width="80" height="80" loading="lazy" />
+    <img
+      src="/{classKey}-icon.png"
+      alt="{className}" class="icon"
+      title={className}
+      width="80"
+      height="80"
+      loading="lazy"
+    />
     <div class="avatar-container">
       <div class="avatar">
         <img src="{avatar}" alt="{name}" width="60" height="60" />
@@ -106,7 +111,7 @@
   }
 
   .icon {
-    width: 5rem;
+    width: 4rem;
     z-index: 1;
 
     @container streamer (max-width: 700px) {
