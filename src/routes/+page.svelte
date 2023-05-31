@@ -1,18 +1,18 @@
 <script>
-  import { onMount } from 'svelte';
+  // import { onMount } from 'svelte';
   import { flip } from 'svelte/animate';
-  import { page } from '$app/stores';
+  // import { page } from '$app/stores';
 
   import Streamer from '$lib/components/Streamer.svelte';
   import { CLASSES } from '../constants';
-  import { liveStreamers } from '../stores';
+  // import { liveStreamers } from '../stores';
 
   export let data = {};
 
   let selectedClass = null;
   let selectedMode = null;
 
-  $: renderedSteamers = (data.streamers || [])
+  $: renderedSteamers = (data.streamers.list || [])
     .sort((a, b) => b.level - a.level)
     .map((streamer, i) => ({ ...streamer, rankOverall: i }))
     .filter((streamer) => {
@@ -22,13 +22,13 @@
       return playerClass && playerMode;
     });
 
-    onMount(async () => {
-      if (!$page.data?.streamed) return;
-      Promise.resolve($page.data?.streamed?.live).then(async (data) => {
-        const json = await data?.json();
-        if (json.data) liveStreamers.set(json.data);
-      });
-    });
+    // onMount(async () => {
+    //   if (!$page.data?.streamed) return;
+    //   Promise.resolve($page.data?.streamed?.live).then(async (data) => {
+    //     const json = await data?.json();
+    //     if (json.data) liveStreamers.set(json.data);
+    //   });
+    // });
 </script>
 
 <nav>

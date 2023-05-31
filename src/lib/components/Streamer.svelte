@@ -14,11 +14,11 @@
   $: isLive = $liveStreamers.find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
 
   const className = CLASSES[classKey].name;
+  const displayedRank = level > 5 ? rank + 1 : "X";
 </script>
 
 <a href={url} target="_blank" class="streamer" class:isLive class:hardcore>
   <div class="meta">
-    <!-- <h5 class="rank serif2">{rank + 1}</h5> -->
     <div class="level">
       <img src="/lvl-bg.webp" alt="{className}" width="132" height="132" />
       <span class="serif2 val">{level}</span>
@@ -44,7 +44,7 @@
   <div class="info">
     <div class="rank serif">
       <span>Rank</span>
-      <span class="val">{rank + 1}</span>
+      <span class="val">{displayedRank}</span>
     </div>
   </div>
 </a>
