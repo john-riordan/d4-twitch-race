@@ -49,6 +49,7 @@
     position: relative;
     display: grid;
     gap: 2rem;
+    width: 95vw;
     max-width: 55rem;
     margin: 0 auto;
     padding-top: 2rem;
@@ -84,16 +85,24 @@
     color: var(--c4);
 
     @container app (max-width: 600px) {
-      font-size: 1rem;
+      font-size: 0.875rem;
     }
   }
   .updated {
     font-size: 1rem;
     padding: 0;
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
   }
   .disclaimer {
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
   }
 
   footer {

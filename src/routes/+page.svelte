@@ -11,21 +11,6 @@
   let selectedClass = null;
   let selectedMode = null;
 
-  $: classesLeaderboards = (data.streamers || []).reduce((acc, curr) => {
-    if (!acc[curr.class]) acc[curr.class] = [];
-    acc[curr.class].push(curr);
-    return acc;
-  }, {});
-
-  $: modeLeaderboards = (data.streamers || []).reduce(
-    (acc, curr) => {
-      if (curr.hardcore) acc.hc.push(curr);
-      else acc.sc.push(curr);
-      return acc;
-    },
-    { hc: [], sc: [] }
-  );
-
   $: renderedSteamers = (data.streamers || [])
     .sort((a, b) => b.level - a.level)
     .map((streamer, i) => ({ ...streamer, rankOverall: i }))
@@ -102,15 +87,9 @@
 {#if renderedSteamers.length}
   <ol>
     {#each renderedSteamers as streamer, index (streamer.name)}
-      {@const streamerMode = streamer.hardcore ? "hc" : "sc"}
-      {@const rankClass = classesLeaderboards[streamer.class].findIndex(
-        (s) => s.name === streamer.name
-      )}
-      {@const rankMode = modeLeaderboards[streamerMode].findIndex(
-        (s) => s.name === streamer.name
-      )}
       <li>
         <Streamer
+          rank={index}
           id={streamer.id}
           name={streamer.name}
           level={streamer.level}
@@ -118,9 +97,6 @@
           avatar={streamer.avatar}
           classKey={streamer.class}
           hardcore={streamer.hardcore}
-          rankOverall={streamer.rankOverall}
-          rankClass={rankClass}
-          rankMode={rankMode}
         />
       </li>
     {/each}
@@ -137,7 +113,7 @@
 
     @container app (max-width: 700px) {
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
     .controls {
@@ -184,7 +160,7 @@
           opacity: 1;
         }
 
-        &::after {
+        &::before {
           content: '';
           width: 44px;
           height: 44px;
@@ -195,7 +171,7 @@
         &.active {
           opacity: 1;
 
-          &::after {
+          &::before {
             background: url('/checkbox_filled.webp') no-repeat center;
             background-size: 44px;
           }
