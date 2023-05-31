@@ -41,7 +41,7 @@
     <span class="live">Live</span>
   </div>
   <div class="info">
-    <div class="rank serif2">
+    <div class="rank serif">
       <span>Rank</span>
       <span class="val">{rank + 1}</span>
     </div>
@@ -244,12 +244,13 @@
   .rank {
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    gap: 0.75rem;
+    font-size: 0.75rem;
     color: var(--c4);
 
     .val {
-      font-size: 2rem ;
-      width: 2.5ch;
+      font-size: 1.75rem;
+      width: 2ch;
       text-align: center;
     }
 
