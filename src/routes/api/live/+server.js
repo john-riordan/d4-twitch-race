@@ -1,7 +1,8 @@
+import { json } from '@sveltejs/kit';
+
 import { PRIVATE_CLIENT_ID, PRIVATE_CLIENT_SECRET } from '$env/static/private';
 
-/** @type {import('./$types').PageLoad} */
-export async function load({ fetch }) {
+export async function GET({ fetch }) {
   const res = await fetch('/data/streamers.json');
   const streamers = await res.json();
 
@@ -37,5 +38,5 @@ export async function load({ fetch }) {
 
   const live = streamsLive.filter(streamer => streamer?.type === 'live');
 
-  return { streamers, live };
+  return json({ data: live });
 }

@@ -1,7 +1,10 @@
 <script>
-  import Streamer from '$lib/components/Streamer.svelte';
+  import { onMount } from 'svelte';
+  import { page } from '$app/stores';
 
-  import { CLASSES, GAME_ID } from '../constants'
+  import Streamer from '$lib/components/Streamer.svelte';
+  import { CLASSES } from '../constants';
+  import { liveStreamers } from '../stores';
 
   export let data = {};
 
@@ -32,6 +35,15 @@
       const playerMode = selectedMode ? mode === selectedMode : true;
       return playerClass && playerMode;
     });
+
+    onMount(async () => {
+      Promise.resolve($page.data?.streamed?.live).then(async (data) => {
+        const json = await data.json();
+        liveStreamers.set(json.data);
+      });
+    });
+
+  
 </script>
 
 <nav>
@@ -87,6 +99,9 @@
     </button>
   </div>
 </nav>
+
+
+
 {#if renderedSteamers.length}
   <ol>
     {#each renderedSteamers as streamer, index (streamer.name)}
@@ -99,6 +114,7 @@
       )}
       <li>
         <Streamer
+          id={streamer.id}
           name={streamer.name}
           level={streamer.level}
           url={streamer.url}
@@ -108,7 +124,6 @@
           rankOverall={streamer.rankOverall}
           rankClass={rankClass}
           rankMode={rankMode}
-          isLive={data.live.find((twitch) => streamer.id === twitch.user_id && twitch.game_id === GAME_ID)}
         />
       </li>
     {/each}

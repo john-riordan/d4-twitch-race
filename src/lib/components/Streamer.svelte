@@ -1,6 +1,8 @@
 <script>
-  import { CLASSES } from '../../constants'
+  import { CLASSES, GAME_ID } from '../../constants';
+  import { liveStreamers } from '../../stores';
 
+  export let id = 0;
   export let name = 'Name';
   export let level = 1;
   export let url = "/";
@@ -10,7 +12,8 @@
   export let rankOverall = 1;
   export let rankClass = 1;
   export let rankMode = 1;
-  export let isLive = false;
+
+  $: isLive = $liveStreamers.find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
 
   const className = CLASSES[classKey].name;
   const mode = hardcore ? "Hardcore" : "Softcore";
