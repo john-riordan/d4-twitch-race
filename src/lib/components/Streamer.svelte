@@ -85,6 +85,7 @@
       filter: brightness(0.75);
       pointer-events: none;
       opacity: 0.75;
+      transition: all 250ms ease-out;
 
       @container streamer (max-width: 700px) {
         background-size: 560px;
