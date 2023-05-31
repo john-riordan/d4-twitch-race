@@ -122,7 +122,7 @@
       gap: 0.5rem;
       justify-content: center;
 
-      &:hover button.active > span {
+      &:not(:has(.check)):hover button.active > span {
         opacity: 0;
       }
     }
