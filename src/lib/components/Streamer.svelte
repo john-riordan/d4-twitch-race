@@ -11,7 +11,7 @@
   export let classKey = "";
   export let hardcore = false;
 
-  $: isLive = $liveStreamers.find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
+  $: isLive = ($liveStreamers || []).find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
 
   const className = CLASSES[classKey].name;
   const displayedRank = level > 5 ? rank + 1 : "X";
