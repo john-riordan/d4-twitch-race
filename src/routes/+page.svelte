@@ -1,11 +1,9 @@
 <script>
   // import { onMount } from 'svelte';
   import { flip } from 'svelte/animate';
-  // import { page } from '$app/stores';
 
   import Streamer from '$lib/components/Streamer.svelte';
   import { CLASSES } from '../constants';
-  // import { liveStreamers } from '../stores';
 
   export let data = {};
 
@@ -21,14 +19,6 @@
       const playerMode = selectedMode ? mode === selectedMode : true;
       return playerClass && playerMode;
     });
-
-    // onMount(async () => {
-    //   if (!$page.data?.streamed) return;
-    //   Promise.resolve($page.data?.streamed?.live).then(async (data) => {
-    //     const json = await data?.json();
-    //     if (json.data) liveStreamers.set(json.data);
-    //   });
-    // });
 </script>
 
 <nav>
@@ -99,6 +89,7 @@
         avatar={streamer.avatar}
         classKey={streamer.class}
         hardcore={streamer.hardcore}
+        liveStreamers={data.live}
       />
     </li>
   {/each}
