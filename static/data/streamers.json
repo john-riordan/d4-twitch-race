@@ -216,6 +216,15 @@
       "url": "https://twitch.tv/ds_lily",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a7ec8d0-9a46-4abd-9cb0-5d45cf5e49e7-profile_image-70x70.png",
       "id": "144926827"
+    },
+    {
+      "name": "Stoopzz",
+      "level": 1,
+      "class": "rogue",
+      "hardcore": false,
+      "url": "https://twitch.tv/stoopzz",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8c229d38-6f49-4d9d-92b2-37b611aa5191-profile_image-70x70.png",
+      "id": "138600347"
     }
   ]
 }
