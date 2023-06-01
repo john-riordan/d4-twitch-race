@@ -1,6 +1,5 @@
 <script>
   import { onMount } from 'svelte';
-  import { page } from '$app/stores';
 
   import './styles.css';
 
@@ -8,7 +7,11 @@
 
   let time = null;
 
-  $: update = (time - $page.data.streamers.updatedAt) / 1000 / 60;
+  $: update = (time - data.streamers.updatedAt) / 1000 / 60;
+
+  onMount(() => {
+    time = Date.now()
+  })
 
   function minsToHrs(minutes) {
     var hours = Math.floor(minutes / 60);
