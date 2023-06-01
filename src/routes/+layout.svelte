@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import { page } from '$app/stores';
+  
+  import { liveStreamers } from '../stores';
 
   import './styles.css';
 
@@ -8,9 +10,18 @@
 
   let time = null;
 
-  onMount(() => {
+  onMount(async () => {
     time = Date.now();
+
+    const liveRes = await fetch('/api/live');
+    const liveData = await liveRes.json();
+
+    if (liveData?.list?.length) {
+      liveStreamers.set(liveData.list)
+    }
   });
+
+  $: console.log($liveStreamers)
 
   $: update = (time - $page.data.streamers.updatedAt) / 1000 / 60;
 
