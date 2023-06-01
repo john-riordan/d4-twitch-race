@@ -225,6 +225,24 @@
       "url": "https://twitch.tv/stoopzz",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8c229d38-6f49-4d9d-92b2-37b611aa5191-profile_image-70x70.png",
       "id": "138600347"
+    },
+    {
+      "name": "RaizQT",
+      "level": 1,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/raizqt",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/91686c9e-1d94-41b1-8c39-94c693718afc-profile_image-70x70.png",
+      "id": "138600347"
+    },
+    {
+      "name": "empyrian",
+      "level": 1,
+      "class": "sorc",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/empyriangaming",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
+      "id": "48631915"
     }
   ]
 }
