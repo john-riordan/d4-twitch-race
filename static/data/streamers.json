@@ -243,6 +243,15 @@
       "url": "https://www.twitch.tv/empyriangaming",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
       "id": "48631915"
+    },
+    {
+      "name": "Ghazzy",
+      "level": 50,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/ghazzytv",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b89a28d-29b8-44d8-87c3-6054bc744018-profile_image-70x70.png",
+      "id": "23050280"
     }
   ]
 }
