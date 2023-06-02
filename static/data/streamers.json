@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1685694817519,
+  "updatedAt": 1685699309754,
   "list": [
     {
       "name": "DatModz",
-      "level": 37,
+      "level": 39,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Kripp",
-      "level": 44,
+      "level": 48,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/nl_kripp",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 41,
+      "level": 44,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Shroud",
-      "level": 42,
+      "level": 45,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Maximum",
-      "level": 42,
+      "level": 45,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 47,
+      "level": 50,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 44,
+      "level": 48,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -75,7 +75,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 45,
+      "level": 50,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Kanon",
-      "level": 37,
+      "level": 39,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/kanonxo",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 45,
+      "level": 47,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 30,
+      "level": 33,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -138,7 +138,7 @@
     },
     {
       "name": "Steelmage",
-      "level": 45,
+      "level": 47,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
@@ -147,7 +147,7 @@
     },
     {
       "name": "tytykiller",
-      "level": 41,
+      "level": 43,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/tytykiller",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Carn",
-      "level": 44,
+      "level": 46,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -165,7 +165,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 27,
+      "level": 30,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/towelliee",
@@ -174,7 +174,7 @@
     },
     {
       "name": "Nugiyen",
-      "level": 44,
+      "level": 46,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
@@ -183,7 +183,7 @@
     },
     {
       "name": "Mr Llama",
-      "level": 43,
+      "level": 45,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/mrllamasc",
@@ -192,7 +192,7 @@
     },
     {
       "name": "PsHero",
-      "level": 30,
+      "level": 33,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Rob",
-      "level": 50,
+      "level": 52,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/rob2628",
@@ -228,7 +228,7 @@
     },
     {
       "name": "RaizQT",
-      "level": 37,
+      "level": 39,
       "class": "druid",
       "hardcore": true,
       "url": "https://www.twitch.tv/raizqt",
@@ -237,7 +237,7 @@
     },
     {
       "name": "empyrian",
-      "level": 41,
+      "level": 42,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
