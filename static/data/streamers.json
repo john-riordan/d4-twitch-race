@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1685757699727,
+  "updatedAt": 1685766970457,
   "list": [
     {
       "name": "DatModz",
-      "level": 50,
+      "level": 52,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Kripp",
-      "level": 60,
+      "level": 61,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/nl_kripp",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Shroud",
-      "level": 38,
+      "level": 50,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Maximum",
-      "level": 39,
+      "level": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -75,7 +75,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 61,
+      "level": 64,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Kanon",
-      "level": 43,
+      "level": 54,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/kanonxo",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 46,
+      "level": 48,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -147,7 +147,7 @@
     },
     {
       "name": "tytykiller",
-      "level": 52,
+      "level": 53,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/tytykiller",
@@ -165,7 +165,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 44,
+      "level": 46,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/towelliee",
@@ -183,7 +183,7 @@
     },
     {
       "name": "Mr Llama",
-      "level": 56,
+      "level": 59,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -192,7 +192,7 @@
     },
     {
       "name": "PsHero",
-      "level": 51,
+      "level": 52,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -237,7 +237,7 @@
     },
     {
       "name": "empyrian",
-      "level": 54,
+      "level": 56,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -264,7 +264,7 @@
     },
     {
       "name": "Ben",
-      "level": 57,
+      "level": 59,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",
