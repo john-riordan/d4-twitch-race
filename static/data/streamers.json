@@ -261,6 +261,15 @@
       "url": "https://www.twitch.tv/waggle",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d24e25bb-afee-4ce9-8ebe-a43ba4a46553-profile_image-70x70.png",
       "id": "37358842"
+    },
+    {
+      "name": "Ben",
+      "level": 56,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/ben_",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/86091aae-865f-431e-8c1a-203f53211ba6-profile_image-70x70.jpg",
+      "id": "27369897"
     }
   ]
 }
