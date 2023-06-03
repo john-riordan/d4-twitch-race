@@ -24,14 +24,20 @@
   <header>
     <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
     <div>
-      <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
+      <h1 class="title">
+        Diablo 4 Launch week Twitch Tracker
+      </h1>
       <br />
       {#if time}
-        <h2 class="updated">Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u></h2>
+        <h2 class="updated">
+          Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u> (sleeping 💤)
+        </h2>
       {:else}
         <h2 class="updated">...</h2>
       {/if}
-      <p class="disclaimer">** This is a <u>manually updated and curated list</u>. If your favorite streamer isn't on here I'm sorry **</p>
+      <p class="disclaimer">
+        ** This is a <u>manually updated and curated list</u>. If your favorite streamer isn't on here I'm sorry **
+      </p>
     </div>
   </header>
   <hr />
