@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685915621167,
+  "updatedAt": 1685916999511,
   "list": [
     {
       "name": "DatModz",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Kripp",
-      "level": 75,
+      "level": 76,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 84,
+      "level": 85,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -83,7 +83,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 87,
+      "level": 88,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -241,7 +241,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 87,
+      "level": 88,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
@@ -271,12 +271,22 @@
     },
     {
       "name": "Rakin",
-      "level": 66,
+      "level": 67,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d2e7f32-73cb-47bd-8152-ca60811dffa6-profile_image-70x70.png",
       "id": "44099416",
+      "finish": 99
+    },
+    {
+      "name": "AnnieFuchsia",
+      "level": 50,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/anniefuchsia",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0b82d54-7cf4-40af-9fd3-a3c613200877-profile_image-70x70.png",
+      "id": "61294188",
       "finish": 99
     }
   ]
