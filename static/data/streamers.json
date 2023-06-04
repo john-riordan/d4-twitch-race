@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685879732933,
+  "updatedAt": 1685882995707,
   "list": [
     {
       "name": "DatModz",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 83,
+      "level": 84,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Rob",
-      "level": 99,
+      "level": 100,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/rob2628",
