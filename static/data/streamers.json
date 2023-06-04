@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685882995707,
+  "updatedAt": 1685887194673,
   "list": [
     {
       "name": "DatModz",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Quin69",
-      "level": 52,
+      "level": 54,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Shroud",
-      "level": 77,
+      "level": 79,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Maximum",
-      "level": 77,
+      "level": 79,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Kanon",
-      "level": 62,
+      "level": 63,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/kanonxo",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 30,
+      "level": 35,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -192,7 +192,7 @@
     },
     {
       "name": "PsHero",
-      "level": 68,
+      "level": 69,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -227,15 +227,6 @@
       "id": "138600347"
     },
     {
-      "name": "RaizQT",
-      "level": 52,
-      "class": "druid",
-      "hardcore": true,
-      "url": "https://www.twitch.tv/raizqt",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/91686c9e-1d94-41b1-8c39-94c693718afc-profile_image-70x70.png",
-      "id": "36259794"
-    },
-    {
       "name": "empyrian",
       "level": 74,
       "class": "sorc",
@@ -264,7 +255,7 @@
     },
     {
       "name": "Ben",
-      "level": 81,
+      "level": 83,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",
