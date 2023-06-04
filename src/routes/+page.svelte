@@ -11,7 +11,7 @@
   let selectedMode = null;
 
   $: renderedSteamers = (data.streamers.list || [])
-    .sort((a, b) => b.level - a.level)
+    .sort((a, b) => a.finish - b.finish || b.level - a.level)
     .map((streamer, i) => ({ ...streamer, rankOverall: i }))
     .filter((streamer) => {
       const playerClass = selectedClass ? streamer.class === selectedClass : true;
