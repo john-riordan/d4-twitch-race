@@ -175,7 +175,7 @@
       translate: -50% -44%;
 
       @container streamer (max-width: 700px) {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     }
     .label {
