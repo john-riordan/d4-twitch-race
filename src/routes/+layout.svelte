@@ -30,7 +30,7 @@
       <br />
       {#if time}
         <h2 class="updated">
-          Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u>
+          Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u> (sleeping 💤)
         </h2>
       {:else}
         <h2 class="updated">...</h2>
