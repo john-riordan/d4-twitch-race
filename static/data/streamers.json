@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685971651669,
+  "updatedAt": 1685995743862,
   "list": [
     {
       "name": "DatModz",
@@ -14,8 +14,8 @@
     },
     {
       "name": "Quin69",
-      "level": 59,
-      "percent": 70,
+      "level": 61,
+      "percent": 75,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -26,7 +26,7 @@
     {
       "name": "Kripp",
       "level": 79,
-      "percent": 65,
+      "percent": 85,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 83,
-      "percent": 75,
+      "level": 85,
+      "percent": 90,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -68,8 +68,8 @@
     },
     {
       "name": "Wudijo",
-      "level": 95,
-      "percent": 25,
+      "level": 98,
+      "percent": 75,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
@@ -79,14 +79,14 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 96,
-      "percent": 80,
+      "level": 100,
+      "percent": 0,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
       "id": "24482705",
-      "finish": 99
+      "finish": 6
     },
     {
       "name": "DonTheCrown",
@@ -101,19 +101,19 @@
     },
     {
       "name": "Zizaran",
-      "level": 98,
-      "percent": 5,
+      "level": 100,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/zizaran-profile_image-d534b9791c469a48-150x150.png",
       "id": "36483360",
-      "finish": 99
+      "finish": 4
     },
     {
       "name": "Lirik",
-      "level": 47,
-      "percent": 40,
+      "level": 52,
+      "percent": 0,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/lirik",
@@ -133,8 +133,8 @@
     },
     {
       "name": "Mathil",
-      "level": 55,
-      "percent": 35,
+      "level": 57,
+      "percent": 25,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/mathil1",
@@ -144,17 +144,17 @@
     },
     {
       "name": "Steelmage",
-      "level": 98,
+      "level": 100,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a5df0da-86ea-4d5b-986f-e722c553405f-profile_image-150x150.png",
       "id": "57317154",
-      "finish": 99
+      "finish": 5
     },
     {
-      "name": "Carn",
+      "name": "cArn",
       "level": 100,
       "percent": 0,
       "class": "barb",
@@ -162,11 +162,12 @@
       "url": "https://twitch.tv/carn_",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
       "id": "19013029",
-      "finish": 99
+      "finish": 2
     },
     {
       "name": "Towelliee",
-      "level": 57,
+      "level": 59,
+      "percent": 0,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
@@ -176,19 +177,19 @@
     },
     {
       "name": "Nugiyen",
-      "level": 99,
-      "percent": 20,
+      "level": 100,
+      "percent": 0,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png",
       "id": "30967548",
-      "finish": 99
+      "finish": 3
     },
     {
       "name": "Mr Llama",
-      "level": 79,
-      "percent": 30,
+      "level": 81,
+      "percent": 50,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -230,8 +231,8 @@
     },
     {
       "name": "Stoopzz",
-      "level": 70,
-      "percent": 80,
+      "level": 73,
+      "percent": 50,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/stoopzz",
@@ -264,7 +265,7 @@
     {
       "name": "Waggle",
       "level": 80,
-      "percent": 20,
+      "percent": 70,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/waggle",
@@ -285,8 +286,8 @@
     },
     {
       "name": "Rakin",
-      "level": 73,
-      "percent": 15,
+      "level": 78,
+      "percent": 0,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
@@ -296,8 +297,8 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 50,
-      "percent": 35,
+      "level": 52,
+      "percent": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
