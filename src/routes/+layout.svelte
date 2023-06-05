@@ -39,7 +39,9 @@
         ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
       </p>
       <p class="disclaimer">
-        🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a> and <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a> 🏆
+        🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a>, 
+        <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a>, 
+          and <a href="https://www.twitch.tv/wudijo" target="_blank">Wudijo (Hardcore Solo)</a> 🏆
       </p>
     </div>
   </header>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685995743862,
+  "updatedAt": 1686005161636,
   "list": [
     {
       "name": "DatModz",
@@ -68,14 +68,14 @@
     },
     {
       "name": "Wudijo",
-      "level": 98,
-      "percent": 75,
+      "level": 100,
+      "percent": 0,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/12dff549-033e-4571-92c3-043af0ccf4c3-profile_image-150x150.png",
       "id": "61438909",
-      "finish": 99
+      "finish": 3
     },
     {
       "name": "Raxxanterax",
@@ -91,7 +91,7 @@
     {
       "name": "DonTheCrown",
       "level": 94,
-      "percent": 30,
+      "percent": 80,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -254,7 +254,7 @@
     {
       "name": "Ghazzy",
       "level": 94,
-      "percent": 50,
+      "percent": 90,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
