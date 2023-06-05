@@ -1,9 +1,10 @@
 {
-  "updatedAt": 1685969595173,
+  "updatedAt": 1685970146007,
   "list": [
     {
       "name": "DatModz",
       "level": 73,
+      "percent": 25,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -14,6 +15,7 @@
     {
       "name": "Quin69",
       "level": 59,
+      "percent": 70,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -24,6 +26,7 @@
     {
       "name": "Kripp",
       "level": 79,
+      "percent": 65,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -34,6 +37,7 @@
     {
       "name": "Alkaizer",
       "level": 83,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -53,7 +57,8 @@
     },
     {
       "name": "Maximum",
-      "level": 90,
+      "level": 89,
+      "percent": 80,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -86,21 +91,13 @@
     {
       "name": "DonTheCrown",
       "level": 94,
+      "percent": 30,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/964eed35-549a-4718-8d60-0ed6f34b9796-profile_image-70x70.png",
       "id": "29524672",
       "finish": 99
-    },
-    {
-      "name": "Kanon",
-      "level": 66,
-      "class": "rogue",
-      "hardcore": false,
-      "url": "https://twitch.tv/kanonxo",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1df61d39-2f82-4d89-87c2-2c571a25ce5b-profile_image-150x150.png",
-      "id": "69214305"
     },
     {
       "name": "Zizaran",
@@ -116,6 +113,7 @@
     {
       "name": "Lirik",
       "level": 47,
+      "percent": 40,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/lirik",
@@ -126,6 +124,7 @@
     {
       "name": "Sequisha",
       "level": 50,
+      "percent": 25,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -135,6 +134,7 @@
     {
       "name": "Mathil",
       "level": 55,
+      "percent": 35,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/mathil1",
@@ -188,6 +188,7 @@
     {
       "name": "Mr Llama",
       "level": 79,
+      "percent": 30,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -198,6 +199,7 @@
     {
       "name": "PsHero",
       "level": 75,
+      "percent": 20,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -217,7 +219,8 @@
     },
     {
       "name": "ds_lily",
-      "level": 56,
+      "level": 57,
+      "percent": 10,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/ds_lily",
@@ -228,6 +231,7 @@
     {
       "name": "Stoopzz",
       "level": 70,
+      "percent": 80,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/stoopzz",
@@ -238,6 +242,7 @@
     {
       "name": "empyrian",
       "level": 89,
+      "percent": 50,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -248,6 +253,7 @@
     {
       "name": "Ghazzy",
       "level": 94,
+      "percent": 50,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
@@ -257,7 +263,8 @@
     },
     {
       "name": "Waggle",
-      "level": 79,
+      "level": 80,
+      "percent": 20,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/waggle",
@@ -278,7 +285,8 @@
     },
     {
       "name": "Rakin",
-      "level": 72,
+      "level": 73,
+      "percent": 15,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
@@ -289,6 +297,7 @@
     {
       "name": "AnnieFuchsia",
       "level": 50,
+      "percent": 35,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
