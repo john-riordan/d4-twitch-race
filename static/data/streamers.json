@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685951765198,
+  "updatedAt": 1685955395689,
   "list": [
     {
       "name": "DatModz",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Shroud",
-      "level": 91,
+      "level": 93,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Maximum",
-      "level": 88,
+      "level": 89,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -63,7 +63,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 92,
+      "level": 93,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 92,
+      "level": 93,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -83,7 +83,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 93,
+      "level": 94,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 93,
+      "level": 94,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
@@ -141,7 +141,7 @@
     },
     {
       "name": "Steelmage",
-      "level": 93,
+      "level": 94,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
@@ -151,7 +151,7 @@
     },
     {
       "name": "Carn",
-      "level": 96,
+      "level": 97,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -171,7 +171,7 @@
     },
     {
       "name": "Nugiyen",
-      "level": 94,
+      "level": 96,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
@@ -231,7 +231,7 @@
     },
     {
       "name": "empyrian",
-      "level": 84,
+      "level": 85,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -241,7 +241,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 93,
+      "level": 94,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
@@ -261,7 +261,7 @@
     },
     {
       "name": "Ben",
-      "level": 95,
+      "level": 96,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",
