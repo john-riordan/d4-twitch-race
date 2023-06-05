@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1685947087552,
+  "updatedAt": 1685951765198,
   "list": [
     {
       "name": "DatModz",
-      "level": 70,
+      "level": 71,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 82,
+      "level": 83,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Shroud",
-      "level": 90,
+      "level": 91,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Maximum",
-      "level": 83,
+      "level": 88,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 91,
+      "level": 92,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 91,
+      "level": 93,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
@@ -122,7 +122,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 45,
+      "level": 46,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -141,7 +141,7 @@
     },
     {
       "name": "Steelmage",
-      "level": 92,
+      "level": 93,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
@@ -151,7 +151,7 @@
     },
     {
       "name": "Carn",
-      "level": 94,
+      "level": 96,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -161,7 +161,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 56,
+      "level": 57,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
@@ -171,7 +171,7 @@
     },
     {
       "name": "Nugiyen",
-      "level": 93,
+      "level": 94,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
@@ -231,7 +231,7 @@
     },
     {
       "name": "empyrian",
-      "level": 83,
+      "level": 84,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -261,7 +261,7 @@
     },
     {
       "name": "Ben",
-      "level": 94,
+      "level": 95,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",
