@@ -38,6 +38,9 @@
       <p class="disclaimer">
         ** This is a <u>manually updated and curated list</u>. If your favorite streamer isn't on here I'm sorry **
       </p>
+      <p class="disclaimer">
+        🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a> and <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a> 🏆
+      </p>
     </div>
   </header>
   <hr />
@@ -105,6 +108,8 @@
   }
   .disclaimer {
     color: var(--c4);
+    margin: 0.5rem 0;
+    line-height: 1.25;
 
     @container app (max-width: 600px) {
       font-size: 0.875rem;
