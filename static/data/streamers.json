@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685970146007,
+  "updatedAt": 1685971651669,
   "list": [
     {
       "name": "DatModz",
@@ -80,7 +80,7 @@
     {
       "name": "Raxxanterax",
       "level": 96,
-      "percent": 50,
+      "percent": 80,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -101,8 +101,8 @@
     },
     {
       "name": "Zizaran",
-      "level": 97,
-      "percent": 75,
+      "level": 98,
+      "percent": 5,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
@@ -144,8 +144,8 @@
     },
     {
       "name": "Steelmage",
-      "level": 97,
-      "percent": 50,
+      "level": 98,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
@@ -155,8 +155,8 @@
     },
     {
       "name": "Carn",
-      "level": 99,
-      "percent": 75,
+      "level": 100,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -176,8 +176,8 @@
     },
     {
       "name": "Nugiyen",
-      "level": 98,
-      "percent": 75,
+      "level": 99,
+      "percent": 20,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
