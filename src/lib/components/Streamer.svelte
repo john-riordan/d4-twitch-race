@@ -5,6 +5,7 @@
   export let id = 0;
   export let name = 'Name';
   export let level = 1;
+  export let percent = 0;
   export let url = "/";
   export let avatar = "";
   export let classKey = "";
@@ -23,6 +24,9 @@
       <img src="/lvl-bg.webp" alt="{className}" width="132" height="132" />
       <span class="serif2 val">{level}</span>
       <span class="serif label">Lvl</span>
+      {#if percent}
+        <span class="percent" style="--fill: {percent}" />
+      {/if}
     </div>
     <img
       src="/{classKey}-icon.png"
@@ -186,6 +190,25 @@
 
       @container streamer (max-width: 700px) {
         top: 7%;
+      }
+    }
+    .percent {
+      --height: 4px;
+      position: absolute;
+      bottom: 1.25rem;
+      left: 50%;
+      width: 65%;
+      height: var(--height);
+      background: var(--red1);
+      translate: -50% -50%;
+      box-shadow: 0 0 10px 1px var(--c1);
+
+      &::before {
+        content: '';
+        display: block;
+        height: var(--height);
+        width: calc(var(--fill) * 1%);
+        background: linear-gradient(to right, var(--red2) 50%, #cc3109);
       }
     }
   }

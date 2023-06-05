@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1685964589046,
+  "updatedAt": 1685969595173,
   "list": [
     {
       "name": "DatModz",
@@ -63,7 +63,8 @@
     },
     {
       "name": "Wudijo",
-      "level": 94,
+      "level": 95,
+      "percent": 25,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/wudijo",
@@ -73,7 +74,8 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 95,
+      "level": 96,
+      "percent": 50,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
@@ -103,6 +105,7 @@
     {
       "name": "Zizaran",
       "level": 97,
+      "percent": 75,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/zizaran",
@@ -122,7 +125,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 48,
+      "level": 50,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -141,7 +144,8 @@
     },
     {
       "name": "Steelmage",
-      "level": 96,
+      "level": 97,
+      "percent": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/steelmage",
@@ -152,6 +156,7 @@
     {
       "name": "Carn",
       "level": 99,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -172,6 +177,7 @@
     {
       "name": "Nugiyen",
       "level": 98,
+      "percent": 75,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/nugiyen",
@@ -191,7 +197,7 @@
     },
     {
       "name": "PsHero",
-      "level": 74,
+      "level": 75,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -231,7 +237,7 @@
     },
     {
       "name": "empyrian",
-      "level": 88,
+      "level": 89,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -262,6 +268,7 @@
     {
       "name": "Ben",
       "level": 97,
+      "percent": 25,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",

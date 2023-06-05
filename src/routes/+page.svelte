@@ -85,6 +85,7 @@
         id={streamer.id}
         name={streamer.name}
         level={streamer.level}
+        percent={streamer.percent}
         url={streamer.url}
         avatar={streamer.avatar}
         classKey={streamer.class}
