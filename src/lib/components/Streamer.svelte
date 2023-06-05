@@ -175,9 +175,6 @@
       translate: -50% -44%;
 
       @container streamer (max-width: 700px) {
-        font-size: 3rem;
-      }
-      @container streamer (max-width: 500px) {
         font-size: 2.5rem;
       }
     }
@@ -209,6 +206,11 @@
         height: var(--height);
         width: calc(var(--fill) * 1%);
         background: linear-gradient(to right, var(--red2) 50%, #cc3109);
+      }
+
+      @container streamer (max-width: 700px) {
+        --height: 2px;
+        bottom: 0.5rem;
       }
     }
   }
