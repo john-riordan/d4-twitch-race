@@ -1,10 +1,10 @@
 {
-  "updatedAt": 1686005161636,
+  "updatedAt": 1686015175367,
   "list": [
     {
       "name": "DatModz",
       "level": 73,
-      "percent": 25,
+      "percent": 75,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 79,
-      "percent": 85,
+      "level": 81,
+      "percent": 25,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -48,6 +48,7 @@
     {
       "name": "Shroud",
       "level": 93,
+      "percent": 75,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -57,8 +58,8 @@
     },
     {
       "name": "Maximum",
-      "level": 89,
-      "percent": 80,
+      "level": 90,
+      "percent": 10,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -90,8 +91,8 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 94,
-      "percent": 80,
+      "level": 95,
+      "percent": 50,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -123,24 +124,13 @@
     },
     {
       "name": "Sequisha",
-      "level": 50,
-      "percent": 25,
+      "level": 52,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/sequisha-profile_image-88c3a710aabaed1a-70x70.png",
       "id": "25458544"
-    },
-    {
-      "name": "Mathil",
-      "level": 57,
-      "percent": 25,
-      "class": "rogue",
-      "hardcore": false,
-      "url": "https://twitch.tv/mathil1",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/mathil1-profile_image-39376f797063a87b-150x150.jpeg",
-      "id": "25575995",
-      "finish": 99
     },
     {
       "name": "Steelmage",
@@ -166,8 +156,8 @@
     },
     {
       "name": "Towelliee",
-      "level": 59,
-      "percent": 0,
+      "level": 60,
+      "percent": 15,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
@@ -188,8 +178,8 @@
     },
     {
       "name": "Mr Llama",
-      "level": 81,
-      "percent": 50,
+      "level": 85,
+      "percent": 75,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -220,7 +210,7 @@
     },
     {
       "name": "ds_lily",
-      "level": 57,
+      "level": 59,
       "percent": 10,
       "class": "barb",
       "hardcore": true,
@@ -231,7 +221,7 @@
     },
     {
       "name": "Stoopzz",
-      "level": 73,
+      "level": 76,
       "percent": 50,
       "class": "rogue",
       "hardcore": false,
@@ -242,8 +232,8 @@
     },
     {
       "name": "empyrian",
-      "level": 89,
-      "percent": 50,
+      "level": 92,
+      "percent": 90,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -253,8 +243,8 @@
     },
     {
       "name": "Ghazzy",
-      "level": 94,
-      "percent": 90,
+      "level": 95,
+      "percent": 50,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
@@ -264,8 +254,8 @@
     },
     {
       "name": "Waggle",
-      "level": 80,
-      "percent": 70,
+      "level": 55,
+      "percent": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/waggle",
@@ -276,7 +266,7 @@
     {
       "name": "Ben",
       "level": 97,
-      "percent": 25,
+      "percent": 50,
       "class": "barb",
       "hardcore": true,
       "url": "https://www.twitch.tv/ben_",
@@ -286,8 +276,8 @@
     },
     {
       "name": "Rakin",
-      "level": 78,
-      "percent": 0,
+      "level": 81,
+      "percent": 60,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
@@ -297,7 +287,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 52,
+      "level": 54,
       "percent": 50,
       "class": "sorc",
       "hardcore": true,
