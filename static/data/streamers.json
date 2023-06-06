@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686025622161,
+  "updatedAt": 1686030294573,
   "list": [
     {
       "name": "DatModz",
@@ -37,7 +37,7 @@
     {
       "name": "Alkaizer",
       "level": 87,
-      "percent": 10,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -92,7 +92,7 @@
     {
       "name": "DonTheCrown",
       "level": 96,
-      "percent": 40,
+      "percent": 75,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -232,8 +232,8 @@
     },
     {
       "name": "empyrian",
-      "level": 95,
-      "percent": 75,
+      "level": 96,
+      "percent": 85,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -244,7 +244,7 @@
     {
       "name": "Ghazzy",
       "level": 96,
-      "percent": 25,
+      "percent": 60,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
