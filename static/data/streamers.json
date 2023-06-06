@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686045280521,
+  "updatedAt": 1686081032064,
   "list": [
     {
       "name": "DatModz",
@@ -14,8 +14,8 @@
     },
     {
       "name": "Quin69",
-      "level": 61,
-      "percent": 75,
+      "level": 68,
+      "percent": 0,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 82,
-      "percent": 75,
+      "level": 83,
+      "percent": 50,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -113,7 +113,7 @@
     },
     {
       "name": "Lirik",
-      "level": 52,
+      "level": 56,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -156,8 +156,8 @@
     },
     {
       "name": "Towelliee",
-      "level": 60,
-      "percent": 15,
+      "level": 62,
+      "percent": 0,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
@@ -189,8 +189,8 @@
     },
     {
       "name": "PsHero",
-      "level": 79,
-      "percent": 50,
+      "level": 46,
+      "percent": 0,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -210,7 +210,7 @@
     },
     {
       "name": "ds_lily",
-      "level": 59,
+      "level": 64,
       "percent": 10,
       "class": "barb",
       "hardcore": true,
@@ -221,8 +221,8 @@
     },
     {
       "name": "Stoopzz",
-      "level": 76,
-      "percent": 50,
+      "level": 80,
+      "percent": 0,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/stoopzz",
@@ -276,8 +276,8 @@
     },
     {
       "name": "Rakin",
-      "level": 81,
-      "percent": 60,
+      "level": 88,
+      "percent": 50,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
@@ -287,7 +287,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 54,
+      "level": 57,
       "percent": 50,
       "class": "sorc",
       "hardcore": true,
