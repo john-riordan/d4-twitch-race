@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686030294573,
+  "updatedAt": 1686045280521,
   "list": [
     {
       "name": "DatModz",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 81,
-      "percent": 25,
+      "level": 82,
+      "percent": 75,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 87,
-      "percent": 75,
+      "level": 89,
+      "percent": 25,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -91,7 +91,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 96,
+      "level": 97,
       "percent": 75,
       "class": "barb",
       "hardcore": false,
@@ -124,8 +124,8 @@
     },
     {
       "name": "Sequisha",
-      "level": 52,
-      "percent": 0,
+      "level": 54,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Mr Llama",
-      "level": 85,
+      "level": 88,
       "percent": 75,
       "class": "barb",
       "hardcore": false,
@@ -189,8 +189,8 @@
     },
     {
       "name": "PsHero",
-      "level": 75,
-      "percent": 20,
+      "level": 79,
+      "percent": 50,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -232,8 +232,8 @@
     },
     {
       "name": "empyrian",
-      "level": 96,
-      "percent": 85,
+      "level": 99,
+      "percent": 0,
       "class": "sorc",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
@@ -243,8 +243,8 @@
     },
     {
       "name": "Ghazzy",
-      "level": 96,
-      "percent": 60,
+      "level": 97,
+      "percent": 75,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
