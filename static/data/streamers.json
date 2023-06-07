@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1686117806128,
+  "updatedAt": 1686135373064,
   "list": [
     {
       "name": "DatModz",
-      "level": 78,
+      "level": 82,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 92,
-      "percent": 25,
+      "level": 94,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -47,8 +47,8 @@
     },
     {
       "name": "Shroud",
-      "level": 97,
-      "percent": 30,
+      "level": 99,
+      "percent": 75,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 66,
+      "level": 76,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -124,7 +124,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 58,
+      "level": 60,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -189,7 +189,7 @@
     },
     {
       "name": "PsHero",
-      "level": 51,
+      "level": 55,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
