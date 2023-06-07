@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686136844923,
+  "updatedAt": 1686168272123,
   "list": [
     {
       "name": "DatModz",
@@ -14,8 +14,8 @@
     },
     {
       "name": "Quin69",
-      "level": 68,
-      "percent": 0,
+      "level": 73,
+      "percent": 50,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 89,
-      "percent": 80,
+      "level": 88,
+      "percent": 25,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -37,7 +37,7 @@
     {
       "name": "Alkaizer",
       "level": 94,
-      "percent": 0,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -58,8 +58,8 @@
     },
     {
       "name": "Maximum",
-      "level": 76,
-      "percent": 0,
+      "level": 77,
+      "percent": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -113,8 +113,8 @@
     },
     {
       "name": "Lirik",
-      "level": 57,
-      "percent": 75,
+      "level": 59,
+      "percent": 50,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/lirik",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Sequisha",
-      "level": 60,
-      "percent": 0,
+      "level": 62,
+      "percent": 50,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 63,
+      "level": 64,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -179,7 +179,7 @@
     {
       "name": "Mr Llama",
       "level": 91,
-      "percent": 0,
+      "percent": 75,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -210,8 +210,8 @@
     },
     {
       "name": "ds_lily",
-      "level": 64,
-      "percent": 10,
+      "level": 65,
+      "percent": 80,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/ds_lily",
@@ -254,7 +254,7 @@
     },
     {
       "name": "Waggle",
-      "level": 72,
+      "level": 74,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -276,7 +276,7 @@
     },
     {
       "name": "Rakin",
-      "level": 91,
+      "level": 95,
       "percent": 50,
       "class": "druid",
       "hardcore": false,
@@ -287,8 +287,8 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 57,
-      "percent": 50,
+      "level": 62,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
