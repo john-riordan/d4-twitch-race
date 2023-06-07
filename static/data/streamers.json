@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686135373064,
+  "updatedAt": 1686136844923,
   "list": [
     {
       "name": "DatModz",
@@ -47,14 +47,14 @@
     },
     {
       "name": "Shroud",
-      "level": 99,
-      "percent": 75,
+      "level": 100,
+      "percent": 0,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7ed5e0c6-0191-4eef-8328-4af6e4ea5318-profile_image-70x70.png",
       "id": "37402112",
-      "finish": 99
+      "finish": 9
     },
     {
       "name": "Maximum",
@@ -276,7 +276,7 @@
     },
     {
       "name": "Rakin",
-      "level": 88,
+      "level": 91,
       "percent": 50,
       "class": "druid",
       "hardcore": false,
