@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1686104426047,
+  "updatedAt": 1686117806128,
   "list": [
     {
       "name": "DatModz",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 85,
-      "percent": 75,
+      "level": 89,
+      "percent": 80,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 91,
-      "percent": 0,
+      "level": 92,
+      "percent": 25,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -47,8 +47,8 @@
     },
     {
       "name": "Shroud",
-      "level": 95,
-      "percent": 50,
+      "level": 97,
+      "percent": 30,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/shroud",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 1,
+      "level": 66,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -124,8 +124,8 @@
     },
     {
       "name": "Sequisha",
-      "level": 54,
-      "percent": 75,
+      "level": 58,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 62,
+      "level": 63,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -189,7 +189,7 @@
     },
     {
       "name": "PsHero",
-      "level": 46,
+      "level": 51,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -244,7 +244,7 @@
     {
       "name": "Ghazzy",
       "level": 100,
-      "percent": 75,
+      "percent": 0,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/ghazzytv",
@@ -254,8 +254,8 @@
     },
     {
       "name": "Waggle",
-      "level": 55,
-      "percent": 50,
+      "level": 72,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/waggle",
@@ -265,7 +265,7 @@
     },
     {
       "name": "Ben",
-      "level": 99,
+      "level": 100,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
