@@ -1,10 +1,10 @@
 {
-  "updatedAt": 1686209777526,
+  "updatedAt": 1686253535300,
   "list": [
     {
       "name": "DatModz",
-      "level": 86,
-      "percent": 0,
+      "level": 87,
+      "percent": 25,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -26,7 +26,7 @@
     {
       "name": "Kripp",
       "level": 92,
-      "percent": 0,
+      "percent": 75,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -113,8 +113,8 @@
     },
     {
       "name": "Lirik",
-      "level": 59,
-      "percent": 50,
+      "level": 60,
+      "percent": 10,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/lirik",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Sequisha",
-      "level": 63,
-      "percent": 50,
+      "level": 66,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -156,8 +156,8 @@
     },
     {
       "name": "Towelliee",
-      "level": 67,
-      "percent": 0,
+      "level": 69,
+      "percent": 25,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Mr Llama",
-      "level": 91,
+      "level": 95,
       "percent": 75,
       "class": "barb",
       "hardcore": false,
@@ -189,7 +189,7 @@
     },
     {
       "name": "PsHero",
-      "level": 65,
+      "level": 70,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -210,7 +210,7 @@
     },
     {
       "name": "ds_lily",
-      "level": 65,
+      "level": 68,
       "percent": 80,
       "class": "barb",
       "hardcore": true,
@@ -221,7 +221,7 @@
     },
     {
       "name": "Stoopzz",
-      "level": 80,
+      "level": 84,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -287,8 +287,8 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 62,
-      "percent": 0,
+      "level": 66,
+      "percent": 50,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
