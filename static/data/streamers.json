@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1686168272123,
+  "updatedAt": 1686209777526,
   "list": [
     {
       "name": "DatModz",
-      "level": 82,
+      "level": 86,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 88,
-      "percent": 25,
+      "level": 92,
+      "percent": 0,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 94,
-      "percent": 75,
+      "level": 96,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -58,8 +58,8 @@
     },
     {
       "name": "Maximum",
-      "level": 77,
-      "percent": 50,
+      "level": 81,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://twitch.tv/maximum",
@@ -124,7 +124,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 62,
+      "level": 63,
       "percent": 50,
       "class": "barb",
       "hardcore": true,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 64,
+      "level": 67,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -189,7 +189,7 @@
     },
     {
       "name": "PsHero",
-      "level": 55,
+      "level": 65,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -254,7 +254,7 @@
     },
     {
       "name": "Waggle",
-      "level": 74,
+      "level": 78,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -276,14 +276,14 @@
     },
     {
       "name": "Rakin",
-      "level": 95,
-      "percent": 50,
+      "level": 100,
+      "percent": 0,
       "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/rakin",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d2e7f32-73cb-47bd-8152-ca60811dffa6-profile_image-70x70.png",
       "id": "44099416",
-      "finish": 99
+      "finish": 13
     },
     {
       "name": "AnnieFuchsia",
