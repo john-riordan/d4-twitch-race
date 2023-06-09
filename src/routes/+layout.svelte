@@ -28,16 +28,17 @@
         Diablo 4 Launch week Twitch Tracker
       </h1>
       <br />
-      {#if time}
+      <!-- {#if time}
         <h2 class="updated">
           Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u>
         </h2>
       {:else}
         <h2 class="updated">...</h2>
-      {/if}
-      <p class="disclaimer">
+      {/if} -->
+      <h2 class="updated">🚨 No longer updating. Come back for Season 1!🚨 </h2>
+      <!-- <p class="disclaimer">
         ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
-      </p>
+      </p> -->
       <p class="disclaimer">
         🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a>, 
         <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a>, 
