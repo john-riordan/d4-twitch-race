@@ -1,10 +1,10 @@
 {
-  "updatedAt": 1686253535300,
+  "updatedAt": 1686307240181,
   "list": [
     {
       "name": "DatModz",
-      "level": 87,
-      "percent": 25,
+      "level": 91,
+      "percent": 0,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -14,8 +14,8 @@
     },
     {
       "name": "Quin69",
-      "level": 73,
-      "percent": 50,
+      "level": 78,
+      "percent": 25,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Kripp",
-      "level": 92,
-      "percent": 75,
+      "level": 96,
+      "percent": 0,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 96,
+      "level": 8,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -189,7 +189,7 @@
     },
     {
       "name": "PsHero",
-      "level": 70,
+      "level": 74,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -220,17 +220,6 @@
       "finish": 99
     },
     {
-      "name": "Stoopzz",
-      "level": 84,
-      "percent": 0,
-      "class": "rogue",
-      "hardcore": false,
-      "url": "https://twitch.tv/stoopzz",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8c229d38-6f49-4d9d-92b2-37b611aa5191-profile_image-70x70.png",
-      "id": "138600347",
-      "finish": 99
-    },
-    {
       "name": "empyrian",
       "level": 100,
       "percent": 0,
@@ -254,7 +243,7 @@
     },
     {
       "name": "Waggle",
-      "level": 78,
+      "level": 82,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
