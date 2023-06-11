@@ -3,19 +3,19 @@
   "list": [
     {
       "name": "DatModz",
-      "level": 91,
+      "level": 100,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a6eee4a9-a2cc-466e-a68e-af773dd2eb1f-profile_image-70x70.png",
       "id": "24124090",
-      "finish": 99
+      "finish": 10
     },
     {
       "name": "Quin69",
-      "level": 78,
-      "percent": 25,
+      "level": 84,
+      "percent": 50,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Kripp",
-      "level": 96,
+      "level": 100,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 8,
+      "level": 92,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 81,
+      "level": 92,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -124,7 +124,7 @@
     },
     {
       "name": "Sequisha",
-      "level": 66,
+      "level": 75,
       "percent": 75,
       "class": "barb",
       "hardcore": true,
@@ -178,8 +178,8 @@
     },
     {
       "name": "Mr Llama",
-      "level": 95,
-      "percent": 75,
+      "level": 99,
+      "percent": 0,
       "class": "barb",
       "hardcore": false,
       "url": "https://twitch.tv/mrllamasc",
@@ -210,8 +210,8 @@
     },
     {
       "name": "ds_lily",
-      "level": 68,
-      "percent": 80,
+      "level": 77,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/ds_lily",
@@ -276,8 +276,8 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 66,
-      "percent": 50,
+      "level": 78,
+      "percent": 25,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
