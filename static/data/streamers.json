@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 84,
+      "level": 86,
       "percent": 50,
       "class": "druid",
       "hardcore": true,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 69,
+      "level": 75,
       "percent": 25,
       "class": "barb",
       "hardcore": false,
@@ -174,11 +174,11 @@
       "url": "https://twitch.tv/nugiyen",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png",
       "id": "30967548",
-      "finish": 3
+      "finish": 16
     },
     {
       "name": "Mr Llama",
-      "level": 99,
+      "level": 100,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -210,8 +210,8 @@
     },
     {
       "name": "ds_lily",
-      "level": 77,
-      "percent": 75,
+      "level": 83,
+      "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/ds_lily",
@@ -276,7 +276,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 78,
+      "level": 84,
       "percent": 25,
       "class": "sorc",
       "hardcore": true,
