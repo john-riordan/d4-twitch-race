@@ -113,8 +113,8 @@
     },
     {
       "name": "Lirik",
-      "level": 60,
-      "percent": 10,
+      "level": 76,
+      "percent": 75,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/lirik",
@@ -124,8 +124,8 @@
     },
     {
       "name": "Sequisha",
-      "level": 75,
-      "percent": 75,
+      "level": 85,
+      "percent": 90,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/sequisha",
@@ -189,8 +189,8 @@
     },
     {
       "name": "PsHero",
-      "level": 74,
-      "percent": 0,
+      "level": 80,
+      "percent": 75,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/psherotv",
@@ -243,7 +243,7 @@
     },
     {
       "name": "Waggle",
-      "level": 82,
+      "level": 100,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -276,14 +276,14 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 84,
-      "percent": 25,
+      "level": 100,
+      "percent": 0,
       "class": "sorc",
       "hardcore": true,
       "url": "https://www.twitch.tv/anniefuchsia",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0b82d54-7cf4-40af-9fd3-a3c613200877-profile_image-70x70.png",
       "id": "61294188",
-      "finish": 99
+      "finish": 15
     }
   ]
 }
