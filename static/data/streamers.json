@@ -1,209 +1,289 @@
-[
-  {
-    "name": "DatModz",
-    "level": 1,
-    "class": "druid",
-    "hardcore": true,
-    "url": "https://twitch.tv/datmodz",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0b6cbcc-bedf-4086-be46-45dba84d71ef-profile_image-70x70.png",
-    "id": "24124090"
-  },
-  {
-    "name": "Quin69",
-    "level": 1,
-    "class": "druid",
-    "hardcore": true,
-    "url": "https://twitch.tv/quin69",
-    "avatar": "https://cdn.7tv.app/pp/60af90c1a3648f409a3f663f/d4fbd46144bd451fb68eb06dca5e3c8d",
-    "id": "56649026"
-  },
-  {
-    "name": "Kripp",
-    "level": 1,
-    "class": "sorc",
-    "hardcore": true,
-    "url": "https://twitch.tv/nl_kripp",
-    "avatar": "https://cdn.7tv.app/pp/61614aae0f93a2d6173c15f0/188da290ae734d48a75a785f22ddef28",
-    "id": "29795919"
-  },
-  {
-    "name": "Alkaizer",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/alkaizerx",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/alkaizerx-profile_image-17c30e4f21d2dd67-150x150.jpeg",
-    "id": "35916854"
-  },
-  {
-    "name": "Shroud",
-    "level": 1,
-    "class": "druid",
-    "hardcore": true,
-    "url": "https://twitch.tv/shroud",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7ed5e0c6-0191-4eef-8328-4af6e4ea5318-profile_image-70x70.png",
-    "id": "37402112"
-  },
-  {
-    "name": "Maximum",
-    "level": 1,
-    "class": "druid",
-    "hardcore": true,
-    "url": "https://twitch.tv/maximum",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/c67f5670-2877-4d51-b42a-38c8cf20fe31-profile_image-150x150.png",
-    "id": "42490770"
-  },
-  {
-    "name": "Wudijo",
-    "level": 1,
-    "class": "rogue",
-    "hardcore": true,
-    "url": "https://twitch.tv/wudijo",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/12dff549-033e-4571-92c3-043af0ccf4c3-profile_image-150x150.png",
-    "id": "61438909"
-  },
-  {
-    "name": "Raxxanterax",
-    "level": 1,
-    "class": "barb",
-    "hardcore": false,
-    "url": "https://twitch.tv/raxxanterax",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
-    "id": "24482705"
-  },
-  {
-    "name": "DonTheCrown",
-    "level": 1,
-    "class": "druid",
-    "hardcore": false,
-    "url": "https://twitch.tv/donthecrown",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/964eed35-549a-4718-8d60-0ed6f34b9796-profile_image-70x70.png",
-    "id": "29524672"
-  },
-  {
-    "name": "Kanon",
-    "level": 1,
-    "class": "rogue",
-    "hardcore": false,
-    "url": "https://twitch.tv/kanonxo",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1df61d39-2f82-4d89-87c2-2c571a25ce5b-profile_image-150x150.png",
-    "id": "69214305"
-  },
-  {
-    "name": "Asmongold",
-    "level": 1,
-    "class": "barb",
-    "hardcore": false,
-    "url": "https://twitch.tv/zackrawrr",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a9ce83ba-c0bd-49cc-83bd-9d17647a211a-profile_image-150x150.png",
-    "id": "552120296"
-  },
-  {
-    "name": "Zizaran",
-    "level": 1,
-    "class": "sorc",
-    "hardcore": true,
-    "url": "https://twitch.tv/zizaran",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/zizaran-profile_image-d534b9791c469a48-150x150.png",
-    "id": "36483360"
-  },
-  {
-    "name": "Lirik",
-    "level": 1,
-    "class": "barb",
-    "hardcore": false,
-    "url": "https://twitch.tv/lirik",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/38e925fc-0b07-4e1e-82e2-6639e01344f3-profile_image-150x150.png",
-    "id": "23161357"
-  },
-  {
-    "name": "Sequisha",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/sequisha",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/sequisha-profile_image-88c3a710aabaed1a-70x70.png",
-    "id": "25458544"
-  },
-  {
-    "name": "Mathil",
-    "level": 1,
-    "class": "barb",
-    "hardcore": false,
-    "url": "https://twitch.tv/mathil1",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/mathil1-profile_image-39376f797063a87b-150x150.jpeg",
-    "id": "25575995"
-  },
-  {
-    "name": "Steelmage",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/steelmage",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a5df0da-86ea-4d5b-986f-e722c553405f-profile_image-150x150.png",
-    "id": "57317154"
-  },
-  {
-    "name": "tytykiller",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/tytykiller",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/01589346-7788-43e0-903a-23fb2ecdb7c5-profile_image-150x150.png",
-    "id": "78841595"
-  },
-  {
-    "name": "Carn",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/carn_",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
-    "id": "19013029"
-  },
-  {
-    "name": "Towelliee",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/towelliee",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg",
-    "id": "20694610"
-  },
-  {
-    "name": "Nugiyen",
-    "level": 1,
-    "class": "rogue",
-    "hardcore": true,
-    "url": "https://twitch.tv/nugiyen",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png",
-    "id": "30967548"
-  },
-  {
-    "name": "Mr Llama",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/mrllamasc",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1db3d44-3bff-414c-8fb5-e9f74ae9cc20-profile_image-70x70.png",
-    "id": "28379957"
-  },
-  {
-    "name": "PsHero",
-    "level": 1,
-    "class": "rogue",
-    "hardcore": true,
-    "url": "https://twitch.tv/psherotv",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/09ecf1ff-fde7-4257-895b-a5731435c575-profile_image-70x70.png",
-    "id": "26341777"
-  },
-  {
-    "name": "Rob",
-    "level": 1,
-    "class": "barb",
-    "hardcore": true,
-    "url": "https://twitch.tv/rob2628",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
-    "id": "36998510"
-  }
-]
+{
+  "updatedAt": 1686307240181,
+  "list": [
+    {
+      "name": "DatModz",
+      "level": 100,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/datmodz",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a6eee4a9-a2cc-466e-a68e-af773dd2eb1f-profile_image-70x70.png",
+      "id": "24124090",
+      "finish": 10
+    },
+    {
+      "name": "Quin69",
+      "level": 86,
+      "percent": 50,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/quin69",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2f5addde-fd0d-4a10-82a9-ea91ebb17f8d-profile_image-70x70.png",
+      "id": "56649026",
+      "finish": 99
+    },
+    {
+      "name": "Kripp",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": false,
+      "url": "https://twitch.tv/nl_kripp",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/401068e0-820a-4d9f-9e7c-1e5563398458-profile_image-70x70.png",
+      "id": "29795919",
+      "finish": 99
+    },
+    {
+      "name": "Alkaizer",
+      "level": 92,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/alkaizerx",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/alkaizerx-profile_image-17c30e4f21d2dd67-150x150.jpeg",
+      "id": "35916854",
+      "finish": 99
+    },
+    {
+      "name": "Shroud",
+      "level": 100,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/shroud",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7ed5e0c6-0191-4eef-8328-4af6e4ea5318-profile_image-70x70.png",
+      "id": "37402112",
+      "finish": 9
+    },
+    {
+      "name": "Maximum",
+      "level": 92,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://twitch.tv/maximum",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/c67f5670-2877-4d51-b42a-38c8cf20fe31-profile_image-150x150.png",
+      "id": "42490770",
+      "finish": 99
+    },
+    {
+      "name": "Wudijo",
+      "level": 100,
+      "percent": 0,
+      "class": "rogue",
+      "hardcore": true,
+      "url": "https://twitch.tv/wudijo",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/12dff549-033e-4571-92c3-043af0ccf4c3-profile_image-150x150.png",
+      "id": "61438909",
+      "finish": 6
+    },
+    {
+      "name": "Raxxanterax",
+      "level": 100,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/raxxanterax",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
+      "id": "24482705",
+      "finish": 6
+    },
+    {
+      "name": "DonTheCrown",
+      "level": 100,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/donthecrown",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/964eed35-549a-4718-8d60-0ed6f34b9796-profile_image-70x70.png",
+      "id": "29524672",
+      "finish": 99
+    },
+    {
+      "name": "Zizaran",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://twitch.tv/zizaran",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/zizaran-profile_image-d534b9791c469a48-150x150.png",
+      "id": "36483360",
+      "finish": 5
+    },
+    {
+      "name": "Lirik",
+      "level": 76,
+      "percent": 75,
+      "class": "rogue",
+      "hardcore": false,
+      "url": "https://twitch.tv/lirik",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/38e925fc-0b07-4e1e-82e2-6639e01344f3-profile_image-150x150.png",
+      "id": "23161357",
+      "finish": 99
+    },
+    {
+      "name": "Sequisha",
+      "level": 85,
+      "percent": 90,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/sequisha",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/sequisha-profile_image-88c3a710aabaed1a-70x70.png",
+      "id": "25458544"
+    },
+    {
+      "name": "Steelmage",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://twitch.tv/steelmage",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a5df0da-86ea-4d5b-986f-e722c553405f-profile_image-150x150.png",
+      "id": "57317154",
+      "finish": 4
+    },
+    {
+      "name": "cArn",
+      "level": 100,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/carn_",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
+      "id": "19013029",
+      "finish": 2
+    },
+    {
+      "name": "Towelliee",
+      "level": 75,
+      "percent": 25,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/towelliee",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg",
+      "id": "20694610",
+      "finish": 99
+    },
+    {
+      "name": "Nugiyen",
+      "level": 100,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/nugiyen",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png",
+      "id": "30967548",
+      "finish": 16
+    },
+    {
+      "name": "Mr Llama",
+      "level": 100,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/mrllamasc",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1db3d44-3bff-414c-8fb5-e9f74ae9cc20-profile_image-70x70.png",
+      "id": "28379957",
+      "finish": 99
+    },
+    {
+      "name": "PsHero",
+      "level": 80,
+      "percent": 75,
+      "class": "rogue",
+      "hardcore": true,
+      "url": "https://twitch.tv/psherotv",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/09ecf1ff-fde7-4257-895b-a5731435c575-profile_image-70x70.png",
+      "id": "26341777",
+      "finish": 99
+    },
+    {
+      "name": "Rob",
+      "level": 100,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/rob2628",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
+      "id": "36998510",
+      "finish": 1
+    },
+    {
+      "name": "ds_lily",
+      "level": 83,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/ds_lily",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a7ec8d0-9a46-4abd-9cb0-5d45cf5e49e7-profile_image-70x70.png",
+      "id": "144926827",
+      "finish": 99
+    },
+    {
+      "name": "empyrian",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/empyriangaming",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
+      "id": "48631915",
+      "finish": 99
+    },
+    {
+      "name": "Ghazzy",
+      "level": 100,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/ghazzytv",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b89a28d-29b8-44d8-87c3-6054bc744018-profile_image-70x70.png",
+      "id": "23050280",
+      "finish": 99
+    },
+    {
+      "name": "Waggle",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/waggle",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d24e25bb-afee-4ce9-8ebe-a43ba4a46553-profile_image-70x70.png",
+      "id": "37358842",
+      "finish": 99
+    },
+    {
+      "name": "Ben",
+      "level": 100,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/ben_",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/86091aae-865f-431e-8c1a-203f53211ba6-profile_image-70x70.jpg",
+      "id": "27369897",
+      "finish": 8
+    },
+    {
+      "name": "Rakin",
+      "level": 100,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": false,
+      "url": "https://twitch.tv/rakin",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d2e7f32-73cb-47bd-8152-ca60811dffa6-profile_image-70x70.png",
+      "id": "44099416",
+      "finish": 13
+    },
+    {
+      "name": "AnnieFuchsia",
+      "level": 100,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/anniefuchsia",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0b82d54-7cf4-40af-9fd3-a3c613200877-profile_image-70x70.png",
+      "id": "61294188",
+      "finish": 15
+    }
+  ]
+}

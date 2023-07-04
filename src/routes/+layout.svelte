@@ -3,15 +3,15 @@
 
   import './styles.css';
 
-  const updatedAt = 1685416195278;
+  export let data = {};
 
   let time = null;
 
-  onMount(() => {
-    time = Date.now();
-  });
+  $: update = (time - data.streamers.updatedAt) / 1000 / 60;
 
-  $: update = (time - updatedAt) / 1000 / 60;
+  onMount(() => {
+    time = Date.now()
+  })
 
   function minsToHrs(minutes) {
     var hours = Math.floor(minutes / 60);
@@ -22,15 +22,28 @@
 
 <main class="app">
   <header>
-    <img src="/d4-logo.webp" alt="Diablo 4" class="hero-logo" />
+    <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
     <div>
-      <h1 class="title">Diablo 4 Launch week Twitch Tracker</h1>
-      {#if time}
-        <h2 class="updated">Updated: {update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</h2>
+      <h1 class="title">
+        Diablo 4 Launch week Twitch Tracker
+      </h1>
+      <br />
+      <!-- {#if time}
+        <h2 class="updated">
+          Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u>
+        </h2>
       {:else}
         <h2 class="updated">...</h2>
-      {/if}
-      <p class="disclaimer">** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **</p>
+      {/if} -->
+      <h2 class="updated">🚨 No longer updating. Come back for Season 1!🚨 </h2>
+      <!-- <p class="disclaimer">
+        ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
+      </p> -->
+      <p class="disclaimer">
+        🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a>, 
+        <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a>, 
+          and <a href="https://www.twitch.tv/wudijo" target="_blank">Wudijo (Hardcore Solo)</a> 🏆
+      </p>
     </div>
   </header>
   <hr />
@@ -41,7 +54,7 @@
   </footer>  
 </main>
 
-<style>
+<style lang="scss">
   .app {
     container-type: inline-size;
     container-name: app;
@@ -53,6 +66,10 @@
     margin: 0 auto;
     padding-top: 2rem;
     z-index: 2;
+
+    @media (max-width: 600px) {
+      gap: 1rem;
+    }
   }
 
   header {
@@ -60,28 +77,54 @@
     gap: 2rem;
     justify-content: center;
     text-align: center;
+
+    @container app (max-width: 600px) {
+      gap: 1rem;
+    }
   }
   .hero-logo {
     width: 80%;
-    max-width: 12rem;
+    max-width: 13rem;
     aspect-ratio: 92 / 43;
     margin: 0 auto;
+
+    @container app (max-width: 600px) {
+      max-width: 5rem;
+    }
   }
   .title {
     font-size: 1.5rem;
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
   }
   .updated {
     font-size: 1rem;
     padding: 0;
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
   }
   .disclaimer {
     color: var(--c4);
+    margin: 0.5rem 0;
+    line-height: 1.25;
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
+
+    a {
+      color: var(--red2);
+    }
   }
 
   footer {
-    padding: 15rem 0 3rem;
+    padding: 10rem 0 3rem;
     color: var(--c4);
     text-align: center;
   }

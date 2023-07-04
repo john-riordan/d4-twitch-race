@@ -1,9 +1,10 @@
+import { json } from '@sveltejs/kit';
+
 import { PRIVATE_CLIENT_ID, PRIVATE_CLIENT_SECRET } from '$env/static/private';
 
 import { performOCR } from '../ocr';
 
-/** @type {import('./$types').PageLoad} */
-export async function load({ fetch }) {
+export async function GET({ fetch }) {
   const res = await fetch('/data/streamers.json');
   const streamers = await res.json();
 
@@ -22,8 +23,8 @@ export async function load({ fetch }) {
   const { access_token: accessToken } = await oAuthResponse.json();
 
   const requestUrl = new URL('https://api.twitch.tv/helix/streams');
-  const searchParameters = streamers.map(
-    streamer =>
+  const searchParameters = (streamers?.list || []).map(
+    (streamer) =>
       new URLSearchParams({
         user_id: streamer.id,
       })
@@ -37,12 +38,12 @@ export async function load({ fetch }) {
   });
   const { data: streamsLive } = await streamsResponse.json();
 
-  const live = streamsLive.filter(streamer => streamer?.type === 'live');
+  const live = streamsLive.filter((streamer) => streamer?.type === 'live');
 
   const imagePath =
     'https://static-cdn.jtvnw.net/previews-ttv/live_user_quin69-1920x1080.jpg';
   const region = { left: 738, top: 919, width: 62, height: 62 };
   performOCR(imagePath, region);
 
-  return { streamers, live };
+  return json({ list: live });
 }
