@@ -40,9 +40,13 @@ export async function GET({ fetch }) {
 
   const live = streamsLive.filter((streamer) => streamer?.type === 'live');
 
+  // const imagePath =
+  //   'https://static-cdn.jtvnw.net/previews-ttv/live_user_datmodz-1920x1080.jpg';
+
   const imagePath =
-    'https://static-cdn.jtvnw.net/previews-ttv/live_user_datmodz-1920x1080.jpg';
-  const region = { left: 738, top: 919, width: 62, height: 62 };
+    'https://d4-twitch-race-git-ocr-john-riordan.vercel.app/stream-thumbnail-test.jpg';
+
+  const region = { left: 730, top: 915, width: 70, height: 70 };
   performOCR(imagePath, region);
 
   return json({ list: live });

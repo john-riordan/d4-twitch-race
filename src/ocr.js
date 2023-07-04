@@ -1,12 +1,23 @@
-import Tesseract from 'tesseract.js';
+import Tesseract, { createWorker } from 'tesseract.js';
+import Jimp from 'jimp';
 
 export async function performOCR(imagePath, rectangle) {
   try {
     const start = Date.now();
-    const result = await Tesseract.recognize(imagePath, 'eng', {
+
+    const image = await Jimp.read(imagePath);
+    image.contrast(0.5);
+
+    const worker = await createWorker();
+    await worker.loadLanguage('eng');
+    await worker.initialize('eng');
+    const result = await worker.recognize(imagePath, {
       rectangle,
     });
-    console.log(`Duration: ${Date.now() - start}`, rectangle, result.data.text);
+
+    console.log(`Duration: ${Date.now() - start}`, result.data);
+
+    await worker.terminate();
   } catch (error) {
     console.error(error);
   }
