@@ -18,9 +18,14 @@
     var remainingMinutes = Math.round(minutes % 60);
     return hours + " hours " + remainingMinutes + " minutes";
   }
+
 </script>
 
 <main class="app">
+
+  <a href="/auth/battlenet">BattleNet OAuth</a>
+
+
   <header>
     <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
     <div>
