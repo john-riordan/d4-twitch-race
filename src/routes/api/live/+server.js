@@ -2,7 +2,7 @@ import { json } from '@sveltejs/kit';
 
 import { PRIVATE_CLIENT_ID, PRIVATE_CLIENT_SECRET } from '$env/static/private';
 
-import { performOCR } from '../ocr';
+import { performOCR } from '../../../ocr';
 
 export async function GET({ fetch }) {
   const res = await fetch('/data/streamers.json');
@@ -41,7 +41,7 @@ export async function GET({ fetch }) {
   const live = streamsLive.filter((streamer) => streamer?.type === 'live');
 
   const imagePath =
-    'https://static-cdn.jtvnw.net/previews-ttv/live_user_quin69-1920x1080.jpg';
+    'https://static-cdn.jtvnw.net/previews-ttv/live_user_datmodz-1920x1080.jpg';
   const region = { left: 738, top: 919, width: 62, height: 62 };
   performOCR(imagePath, region);
 
