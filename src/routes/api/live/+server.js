@@ -22,7 +22,7 @@ export async function GET({ fetch }) {
 
   const requestUrl = new URL('https://api.twitch.tv/helix/streams');
   const searchParameters = (streamers?.list || []).map(
-    streamer =>
+    (streamer) =>
       new URLSearchParams({
         user_id: streamer.id,
       })
@@ -36,7 +36,17 @@ export async function GET({ fetch }) {
   });
   const { data: streamsLive } = await streamsResponse.json();
 
-  const live = streamsLive.filter(streamer => streamer?.type === 'live');
+  const live = streamsLive
+    .filter((s) => s?.type === 'live' && s?.game_name === 'Diablo IV')
+    .reduce((acc, curr) => {
+      acc[curr.user_id] = curr;
+      return acc;
+    }, {});
 
-  return json({ list: live });
+  const merged = (streamers?.list || []).map((s) => ({
+    ...s,
+    live: live[s.id] ? live[s.id] : false,
+  }));
+
+  return json({ data: { list: merged, updatedAt: streamers.updatedAt } });
 }

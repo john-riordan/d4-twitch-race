@@ -1,14 +1,22 @@
-/** @type {import('./$types').PageLoad} */
-export async function load({ fetch }) {
-  const res = await fetch('/data/streamers.json');
-  const streamers = await res.json();
-
+export async function load({ fetch, params }) {
   const liveRes = await fetch('/api/live');
   const liveData = await liveRes.json();
 
+  const streamers = (liveData?.data?.list || [])
+    .filter((s) => {
+      const isMode =
+        !params.mode || params.mode === 'both' ? true : s.mode === params.mode;
+      const isCharacter = !params.character
+        ? true
+        : s.character === params.character;
+      return isMode && isCharacter;
+    })
+    .sort((a, b) => a.finish - b.finish || b.level - a.level)
+    .map((streamer, i) => ({ ...streamer, rankOverall: i }));
+
   return {
     streamers,
-    live: liveData.list || [],
+    updatedAt: liveData?.data?.updatedAt,
   };
 }
 
