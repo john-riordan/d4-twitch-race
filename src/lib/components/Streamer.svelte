@@ -1,5 +1,5 @@
 <script>
-  import { CLASSES, GAME_ID } from '../../constants';
+  import { CLASSES } from '../../constants';
 
   export let rank = 0;
   export let id = 0;
@@ -10,11 +10,9 @@
   export let avatar = "";
   export let classKey = "";
   export let hardcore = false;
-  export let liveStreamers = [];
+  export let isLive = false;
 
-  $: isLive = (liveStreamers || []).find((twitch) => id === twitch.user_id && twitch.game_id === GAME_ID) ? true : false;
-
-  const className = CLASSES[classKey].name;
+  const className = CLASSES[classKey];
   const displayedRank = rank + 1;
 </script>
 
