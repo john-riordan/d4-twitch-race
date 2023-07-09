@@ -64,10 +64,10 @@
   .container {
     position: relative;
     translate: 0 -25%;
+    pointer-events: none;
   }
   .hero {
     margin-inline: auto;
-    pointer-events: none;
   }
   .timer {
     display: flex;
