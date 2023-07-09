@@ -1,5 +1,5 @@
 <script>
-  import { CLASSES, GAME_ID } from '../../constants';
+  import { CLASSES, GAME_ID } from '$lib/constants';
 
   export let rank = 0;
   export let id = 0;
