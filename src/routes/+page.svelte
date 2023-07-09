@@ -3,12 +3,15 @@
   import { flip } from 'svelte/animate';
 
   import Streamer from '$lib/components/Streamer.svelte';
-  import { CLASSES } from '../constants';
+  import Season1Countdown from '$lib/components/Season1Countdown.svelte';
+  import { CLASSES, SEASON_1_START } from '$lib/constants';
 
   export let data = {};
 
   let selectedClass = null;
   let selectedMode = null;
+
+  const SEASON_1_COUNTDOWN = true;
 
   $: renderedSteamers = (data.streamers.list || [])
     .sort((a, b) => a.finish - b.finish || b.level - a.level)
@@ -21,6 +24,9 @@
     });
 </script>
 
+{#if SEASON_1_COUNTDOWN}
+  <Season1Countdown />
+{:else}
 <nav>
   <span class="serif">Filter</span>
   <div class="controls">
@@ -95,6 +101,7 @@
     </li>
   {/each}
 </ol>
+{/if}
 
 <style lang="scss">
   nav {

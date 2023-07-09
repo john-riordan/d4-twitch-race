@@ -59,7 +59,9 @@ body {
   margin: 0;
   min-height: 100vh;
   min-height: 100dvh;
-  background: url('/background-sm.webp') no-repeat center black;
+  background: #030505;
+  /* background: url('/background-sm.webp') no-repeat center black; */
+  /* background: url('/s1-boss-bg.webp') no-repeat center black; */
   background-size: 2000px;
   background-attachment: fixed;
   color: var(--c5);
@@ -87,6 +89,14 @@ body::before {
       black
     );
   z-index: 1;
+
+  /* Season 1 bg stuff */
+  background: url('/s1-boss-bg.webp') no-repeat center 20% black;
+  background-size: 2000px;
+  background-attachment: fixed;
+  /* opacity: 0.5; */
+  translate: -20% 0%;
+  -webkit-mask-image: radial-gradient(black 30%, transparent);
 }
 
 img {

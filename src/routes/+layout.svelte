@@ -25,9 +25,9 @@
     <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
     <div>
       <h1 class="title">
-        Diablo 4 Launch week Twitch Tracker
+        Diablo 4 Twitch Tracker
       </h1>
-      <br />
+      <!-- <br /> -->
       <!-- {#if time}
         <h2 class="updated">
           Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u>
@@ -35,7 +35,7 @@
       {:else}
         <h2 class="updated">...</h2>
       {/if} -->
-      <h2 class="updated">🚨 No longer updating. Come back for Season 1!🚨 </h2>
+      <!-- <h2 class="updated">🚨 No longer updating. Come back for Season 1!🚨 </h2> -->
       <!-- <p class="disclaimer">
         ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
       </p> -->
