@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-import streamers from '../static/data/streamers.json' assert { type: 'json' };
+import streamers from '../static/data/streamers-s1.json' assert { type: 'json' };
 
 const CLIENT_ID = process.env.PRIVATE_CLIENT_ID;
 const CLIENT_SECRET = process.env.PRIVATE_CLIENT_SECRET;
@@ -28,7 +28,7 @@ if (!CLIENT_ID || !CLIENT_SECRET)
 
   const requestUrl = new URL('https://api.twitch.tv/helix/users');
   const searchParameters = streamers.map(
-    streamer =>
+    (streamer) =>
       new URLSearchParams({
         login: streamer.url.split('/').pop().trim(),
       })
@@ -44,7 +44,7 @@ if (!CLIENT_ID || !CLIENT_SECRET)
 
   for (const streamer of streamers) {
     const user = userData.find(
-      user => user.login === streamer.url.split('/').pop().trim()
+      (user) => user.login === streamer.url.split('/').pop().trim()
     );
     streamer.id = user.id;
     streamer.url = `https://twitch.tv/${user.login}`;

@@ -22,28 +22,35 @@
 
 <main class="app">
   <header>
-    <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" />
+    <img
+      class="hero-logo"
+      src="/d4-season-1-emblem-logo-enus-2.webp"
+      width="672"
+      height="687"
+      alt="Diablo 4 - Season of the Malignant"
+    />
+    <!-- <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" /> -->
     <div>
       <h1 class="title">
-        Diablo 4 Twitch Tracker
+        Diablo 4 Season 1 Twitch Tracker
       </h1>
-      <!-- <br /> -->
-      <!-- {#if time}
+      <br />
+      {#if time}
         <h2 class="updated">
           Updated: <u>{update > 60 ? minsToHrs(update) : update < 1 ? 1 : Math.floor(update)} mins ago</u>
         </h2>
       {:else}
         <h2 class="updated">...</h2>
-      {/if} -->
+      {/if}
       <!-- <h2 class="updated">🚨 No longer updating. Come back for Season 1!🚨 </h2> -->
-      <!-- <p class="disclaimer">
-        ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
-      </p> -->
       <p class="disclaimer">
+        ** This is a manually updated and curated list. If your favorite streamer isn't on here I'm sorry **
+      </p>
+      <!-- <p class="disclaimer">
         🏆 Congrats <a href="https://www.twitch.tv/rob2628" target="_blank">Rob (Softcore)</a>, 
         <a href="https://www.twitch.tv/carn_" target="_blank">Carn (Hardcore)</a>, 
           and <a href="https://www.twitch.tv/wudijo" target="_blank">Wudijo (Hardcore Solo)</a> 🏆
-      </p>
+      </p> -->
     </div>
   </header>
   <hr />
@@ -85,7 +92,7 @@
   .hero-logo {
     width: 80%;
     max-width: 13rem;
-    aspect-ratio: 92 / 43;
+    /* aspect-ratio: 92 / 43; */
     margin: 0 auto;
 
     @container app (max-width: 600px) {

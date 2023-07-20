@@ -3,7 +3,7 @@ import { json } from '@sveltejs/kit';
 import { PRIVATE_CLIENT_ID, PRIVATE_CLIENT_SECRET } from '$env/static/private';
 
 export async function GET({ fetch }) {
-  const res = await fetch('/data/streamers.json');
+  const res = await fetch('/data/streamers-s1.json');
   const streamers = await res.json();
 
   const oAuthResponse = await fetch(
@@ -22,7 +22,7 @@ export async function GET({ fetch }) {
 
   const requestUrl = new URL('https://api.twitch.tv/helix/streams');
   const searchParameters = (streamers?.list || []).map(
-    streamer =>
+    (streamer) =>
       new URLSearchParams({
         user_id: streamer.id,
       })
@@ -36,7 +36,7 @@ export async function GET({ fetch }) {
   });
   const { data: streamsLive } = await streamsResponse.json();
 
-  const live = streamsLive.filter(streamer => streamer?.type === 'live');
+  const live = streamsLive.filter((streamer) => streamer?.type === 'live');
 
   return json({ list: live });
 }
