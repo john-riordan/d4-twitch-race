@@ -35,6 +35,17 @@
       "finish": 99
     },
     {
+      "name": "Mathil",
+      "level": 1,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/mathil1",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/mathil1-profile_image-39376f797063a87b-70x70.jpeg",
+      "id": "25575995",
+      "finish": 99
+    },
+    {
       "name": "Alkaizer",
       "level": 1,
       "percent": 0,
@@ -61,7 +72,7 @@
       "level": 1,
       "percent": 0,
       "class": "sorc",
-      "hardcore": true,
+      "hardcore": false,
       "url": "https://twitch.tv/maximum",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/c67f5670-2877-4d51-b42a-38c8cf20fe31-profile_image-150x150.png",
       "id": "42490770",
@@ -101,39 +112,6 @@
       "finish": 99
     },
     {
-      "name": "Zizaran",
-      "level": 1,
-      "percent": 0,
-      "class": "sorc",
-      "hardcore": true,
-      "url": "https://twitch.tv/zizaran",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/zizaran-profile_image-d534b9791c469a48-150x150.png",
-      "id": "36483360",
-      "finish": 99
-    },
-    {
-      "name": "Sequisha",
-      "level": 1,
-      "percent": 0,
-      "class": "barb",
-      "hardcore": true,
-      "url": "https://twitch.tv/sequisha",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/sequisha-profile_image-88c3a710aabaed1a-70x70.png",
-      "id": "25458544",
-      "finish": 99
-    },
-    {
-      "name": "Steelmage",
-      "level": 1,
-      "percent": 0,
-      "class": "sorc",
-      "hardcore": true,
-      "url": "https://twitch.tv/steelmage",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a5df0da-86ea-4d5b-986f-e722c553405f-profile_image-150x150.png",
-      "id": "57317154",
-      "finish": 99
-    },
-    {
       "name": "cArn",
       "level": 1,
       "percent": 0,
@@ -156,39 +134,6 @@
       "finish": 99
     },
     {
-      "name": "Nugiyen",
-      "level": 1,
-      "percent": 0,
-      "class": "druid",
-      "hardcore": true,
-      "url": "https://twitch.tv/nugiyen",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2348c31-983d-4fcb-b7ec-d7a32acac251-profile_image-70x70.png",
-      "id": "30967548",
-      "finish": 99
-    },
-    {
-      "name": "Mr Llama",
-      "level": 1,
-      "percent": 0,
-      "class": "barb",
-      "hardcore": false,
-      "url": "https://twitch.tv/mrllamasc",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1db3d44-3bff-414c-8fb5-e9f74ae9cc20-profile_image-70x70.png",
-      "id": "28379957",
-      "finish": 99
-    },
-    {
-      "name": "PsHero",
-      "level": 1,
-      "percent": 0,
-      "class": "rogue",
-      "hardcore": true,
-      "url": "https://twitch.tv/psherotv",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/09ecf1ff-fde7-4257-895b-a5731435c575-profile_image-70x70.png",
-      "id": "26341777",
-      "finish": 99
-    },
-    {
       "name": "Rob",
       "level": 1,
       "class": "barb",
@@ -202,7 +147,7 @@
       "name": "empyrian",
       "level": 1,
       "percent": 0,
-      "class": "sorc",
+      "class": "rogue",
       "hardcore": false,
       "url": "https://www.twitch.tv/empyriangaming",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
@@ -235,22 +180,11 @@
       "name": "Ben",
       "level": 1,
       "percent": 0,
-      "class": "barb",
-      "hardcore": true,
+      "class": "rogue",
+      "hardcore": false,
       "url": "https://www.twitch.tv/ben_",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/86091aae-865f-431e-8c1a-203f53211ba6-profile_image-70x70.jpg",
       "id": "27369897",
-      "finish": 99
-    },
-    {
-      "name": "Rakin",
-      "level": 1,
-      "percent": 0,
-      "class": "druid",
-      "hardcore": false,
-      "url": "https://twitch.tv/rakin",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d2e7f32-73cb-47bd-8152-ca60811dffa6-profile_image-70x70.png",
-      "id": "44099416",
       "finish": 99
     },
     {
