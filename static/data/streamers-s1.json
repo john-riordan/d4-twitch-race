@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1689817938103,
+  "updatedAt": 1689877239778,
   "list": [
     {
       "name": "DatModz",
-      "level": 1,
+      "level": 14,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,9 +14,9 @@
     },
     {
       "name": "Quin69",
-      "level": 1,
+      "level": 14,
       "percent": 0,
-      "class": "druid",
+      "class": "necro",
       "hardcore": true,
       "url": "https://twitch.tv/quin69",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2f5addde-fd0d-4a10-82a9-ea91ebb17f8d-profile_image-70x70.png",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Mathil",
-      "level": 1,
+      "level": 14,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -47,7 +47,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 1,
+      "level": 18,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Shroud",
-      "level": 1,
+      "level": 18,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -69,7 +69,7 @@
     },
     {
       "name": "Maximum",
-      "level": 1,
+      "level": 18,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 1,
+      "level": 17,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -91,9 +91,9 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 1,
+      "level": 18,
       "percent": 0,
-      "class": "barb",
+      "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/raxxanterax",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
@@ -102,9 +102,9 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 1,
+      "level": 14,
       "percent": 0,
-      "class": "barb",
+      "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/964eed35-549a-4718-8d60-0ed6f34b9796-profile_image-70x70.png",
@@ -113,7 +113,7 @@
     },
     {
       "name": "cArn",
-      "level": 1,
+      "level": 15,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -124,9 +124,9 @@
     },
     {
       "name": "Towelliee",
-      "level": 1,
+      "level": 12,
       "percent": 0,
-      "class": "barb",
+      "class": "druid",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg",
@@ -135,8 +135,8 @@
     },
     {
       "name": "Rob",
-      "level": 1,
-      "class": "barb",
+      "level": 19,
+      "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/rob2628",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
@@ -145,7 +145,7 @@
     },
     {
       "name": "empyrian",
-      "level": 1,
+      "level": 20,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 1,
+      "level": 23,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -166,19 +166,8 @@
       "finish": 99
     },
     {
-      "name": "Waggle",
-      "level": 1,
-      "percent": 0,
-      "class": "sorc",
-      "hardcore": true,
-      "url": "https://www.twitch.tv/waggle",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d24e25bb-afee-4ce9-8ebe-a43ba4a46553-profile_image-70x70.png",
-      "id": "37358842",
-      "finish": 99
-    },
-    {
       "name": "Ben",
-      "level": 1,
+      "level": 19,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -189,7 +178,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 1,
+      "level": 14,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
