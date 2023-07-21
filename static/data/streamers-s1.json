@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1689930362312,
+  "updatedAt": 1689958521333,
   "list": [
     {
       "name": "DatModz",
-      "level": 52,
+      "level": 53,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 37,
+      "level": 47,
       "percent": 0,
       "class": "necro",
       "hardcore": true,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 66,
+      "level": 69,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 59,
+      "level": 60,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -69,7 +69,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 59,
+      "level": 67,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 62,
+      "level": 64,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 60,
+      "level": 63,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "cArn",
-      "level": 53,
+      "level": 61,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -113,7 +113,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 26,
+      "level": 39,
       "percent": 0,
       "class": "druid",
       "hardcore": false,
@@ -124,7 +124,7 @@
     },
     {
       "name": "Rob",
-      "level": 69,
+      "level": 78,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/rob2628",
@@ -134,7 +134,7 @@
     },
     {
       "name": "empyrian",
-      "level": 68,
+      "level": 72,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -145,7 +145,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 67,
+      "level": 77,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Ben",
-      "level": 52,
+      "level": 53,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -167,7 +167,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 22,
+      "level": 32,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
