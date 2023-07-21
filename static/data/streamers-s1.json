@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1689906661259,
+  "updatedAt": 1689930362312,
   "list": [
     {
       "name": "DatModz",
-      "level": 43,
+      "level": 52,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -24,17 +24,6 @@
       "finish": 99
     },
     {
-      "name": "Kripp",
-      "level": 1,
-      "percent": 0,
-      "class": "necro",
-      "hardcore": false,
-      "url": "https://twitch.tv/nl_kripp",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/401068e0-820a-4d9f-9e7c-1e5563398458-profile_image-70x70.png",
-      "id": "29795919",
-      "finish": 99
-    },
-    {
       "name": "Mathil",
       "level": 39,
       "percent": 0,
@@ -47,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 54,
+      "level": 66,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +47,7 @@
     },
     {
       "name": "Shroud",
-      "level": 52,
+      "level": 55,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -69,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 52,
+      "level": 59,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -80,7 +69,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 50,
+      "level": 59,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -91,7 +80,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 53,
+      "level": 62,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -102,7 +91,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 49,
+      "level": 60,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -113,7 +102,7 @@
     },
     {
       "name": "cArn",
-      "level": 44,
+      "level": 53,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -135,7 +124,7 @@
     },
     {
       "name": "Rob",
-      "level": 58,
+      "level": 69,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/rob2628",
@@ -145,7 +134,7 @@
     },
     {
       "name": "empyrian",
-      "level": 55,
+      "level": 68,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -156,7 +145,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 55,
+      "level": 67,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
