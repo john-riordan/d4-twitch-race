@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1689892383687,
+  "updatedAt": 1689901992021,
   "list": [
     {
       "name": "DatModz",
-      "level": 32,
+      "level": 40,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 31,
+      "level": 36,
       "percent": 0,
       "class": "necro",
       "hardcore": true,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Mathil",
-      "level": 35,
+      "level": 39,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -47,7 +47,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 44,
+      "level": 52,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Shroud",
-      "level": 42,
+      "level": 50,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -69,7 +69,7 @@
     },
     {
       "name": "Maximum",
-      "level": 43,
+      "level": 50,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 38,
+      "level": 46,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -91,7 +91,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 44,
+      "level": 51,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 35,
+      "level": 44,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -113,7 +113,7 @@
     },
     {
       "name": "cArn",
-      "level": 33,
+      "level": 40,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -135,7 +135,7 @@
     },
     {
       "name": "Rob",
-      "level": 49,
+      "level": 55,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/rob2628",
@@ -145,7 +145,7 @@
     },
     {
       "name": "empyrian",
-      "level": 47,
+      "level": 53,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -156,7 +156,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 46,
+      "level": 53,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -167,7 +167,7 @@
     },
     {
       "name": "Ben",
-      "level": 42,
+      "level": 50,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
