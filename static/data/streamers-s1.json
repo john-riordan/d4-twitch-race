@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1690071457727,
+  "updatedAt": 1690100960203,
   "list": [
     {
       "name": "DatModz",
-      "level": 71,
+      "level": 75,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 87,
+      "level": 90,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,8 +58,8 @@
     },
     {
       "name": "Maximum",
-      "level": 76,
-      "percent": 0,
+      "level": 80,
+      "percent": 80,
       "class": "sorc",
       "hardcore": false,
       "url": "https://twitch.tv/maximum",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 71,
+      "level": 76,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 78,
+      "level": 83,
       "percent": 60,
       "class": "rogue",
       "hardcore": false,
@@ -102,8 +102,8 @@
     },
     {
       "name": "cArn",
-      "level": 79,
-      "percent": 75,
+      "level": 82,
+      "percent": 60,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
