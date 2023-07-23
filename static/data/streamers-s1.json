@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1690060111093,
+  "updatedAt": 1690071457727,
   "list": [
     {
       "name": "DatModz",
-      "level": 68,
+      "level": 71,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Mathil",
-      "level": 57,
+      "level": 61,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 84,
+      "level": 87,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Maximum",
-      "level": 72,
+      "level": 76,
       "percent": 0,
       "class": "sorc",
       "hardcore": false,
@@ -69,7 +69,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 90,
+      "level": 1,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 68,
+      "level": 71,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -91,8 +91,8 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 76,
-      "percent": 0,
+      "level": 78,
+      "percent": 60,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
@@ -102,8 +102,8 @@
     },
     {
       "name": "cArn",
-      "level": 77,
-      "percent": 0,
+      "level": 79,
+      "percent": 75,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
@@ -130,7 +130,7 @@
       "url": "https://twitch.tv/rob2628",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
       "id": "36998510",
-      "finish": 99
+      "finish": 2
     },
     {
       "name": "empyrian",
@@ -141,7 +141,7 @@
       "url": "https://www.twitch.tv/empyriangaming",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
       "id": "48631915",
-      "finish": 99
+      "finish": 1
     },
     {
       "name": "Ghazzy",
