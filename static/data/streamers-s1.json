@@ -1,10 +1,10 @@
 {
-  "updatedAt": 1690100960203,
+  "updatedAt": 1690188212640,
   "list": [
     {
       "name": "DatModz",
-      "level": 75,
-      "percent": 0,
+      "level": 80,
+      "percent": 90,
       "class": "druid",
       "hardcore": true,
       "url": "https://twitch.tv/datmodz",
@@ -25,8 +25,8 @@
     },
     {
       "name": "Mathil",
-      "level": 61,
-      "percent": 0,
+      "level": 68,
+      "percent": 75,
       "class": "necro",
       "hardcore": false,
       "url": "https://www.twitch.tv/mathil1",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Alkaizer",
-      "level": 90,
-      "percent": 0,
+      "level": 97,
+      "percent": 50,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 1,
+      "level": 36,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 76,
+      "level": 83,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -91,8 +91,8 @@
     },
     {
       "name": "DonTheCrown",
-      "level": 83,
-      "percent": 60,
+      "level": 88,
+      "percent": 75,
       "class": "rogue",
       "hardcore": false,
       "url": "https://twitch.tv/donthecrown",
