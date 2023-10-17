@@ -3,7 +3,7 @@
   "list": [
     {
       "name": "DatModz",
-      "level": 1,
+      "level": 18,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 1,
+      "level": 16,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Mathil",
-      "level": 1,
+      "level": 14,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 1,
+      "level": 25,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -47,7 +47,7 @@
     },
     {
       "name": "Wudijo",
-      "level": 1,
+      "level": 17,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 1,
+      "level": 23,
       "percent": 0,
       "class": "rogue",
       "hardcore": false,
@@ -69,7 +69,7 @@
     },
     {
       "name": "cArn",
-      "level": 1,
+      "level": 21,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 1,
+      "level": 11,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "Rob",
-      "level": 1,
+      "level": 26,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -101,19 +101,8 @@
       "finish": 99
     },
     {
-      "name": "empyrian",
-      "level": 1,
-      "percent": 0,
-      "class": "rogue",
-      "hardcore": false,
-      "url": "https://www.twitch.tv/empyriangaming",
-      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
-      "id": "48631915",
-      "finish": 99
-    },
-    {
       "name": "Ghazzy",
-      "level": 1,
+      "level": 21,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -124,7 +113,7 @@
     },
     {
       "name": "AnnieFuchsia",
-      "level": 1,
+      "level": 13,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -135,7 +124,7 @@
     },
     {
       "name": "Asmongold",
-      "level": 1,
+      "level": 15,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -146,7 +135,7 @@
     },
     {
       "name": "Shroud",
-      "level": 1,
+      "level": 13,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -157,7 +146,7 @@
     },
     {
       "name": "Kripp",
-      "level": 1,
+      "level": 19,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -168,7 +157,7 @@
     },
     {
       "name": "Steelmage",
-      "level": 1,
+      "level": 21,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -179,7 +168,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 1,
+      "level": 19,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
