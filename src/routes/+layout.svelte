@@ -34,6 +34,7 @@
       <h1 class="title">
         Diablo 4 Season 2 Twitch Tracker
       </h1>
+      <span class="description">Diablo 4 level 100 race leaderboard for Hardcore and Softcore</span>
       <br />
       {#if time}
         <h2 class="updated">
@@ -102,6 +103,16 @@
   .title {
     font-size: 1.5rem;
     color: var(--c4);
+
+    @container app (max-width: 600px) {
+      font-size: 0.875rem;
+    }
+  }
+  .description {
+    display: block;
+    color: var(--c4);
+    margin: 0.25rem 0;
+    line-height: 2;
 
     @container app (max-width: 600px) {
       font-size: 0.875rem;
