@@ -82,7 +82,7 @@
       "name": "Towelliee",
       "level": 1,
       "percent": 0,
-      "class": "druid",
+      "class": "necro",
       "hardcore": false,
       "url": "https://twitch.tv/towelliee",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg",
@@ -153,6 +153,39 @@
       "url": "https://twitch.tv/shroud",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7ed5e0c6-0191-4eef-8328-4af6e4ea5318-profile_image-70x70.png",
       "id": "37402112",
+      "finish": 99
+    },
+    {
+      "name": "Kripp",
+      "level": 1,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://twitch.tv/nl_kripp",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/401068e0-820a-4d9f-9e7c-1e5563398458-profile_image-70x70.png",
+      "id": "29795919",
+      "finish": 99
+    },
+    {
+      "name": "Steelmage",
+      "level": 1,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://twitch.tv/steelmage",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a5df0da-86ea-4d5b-986f-e722c553405f-profile_image-150x150.png",
+      "id": "57317154",
+      "finish": 99
+    },
+    {
+      "name": "Zizaran",
+      "level": 1,
+      "percent": 0,
+      "class": "rogue",
+      "hardcore": true,
+      "url": "https://twitch.tv/zizaran",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/zizaran-profile_image-d534b9791c469a48-150x150.png",
+      "id": "36483360",
       "finish": 99
     }
   ]
