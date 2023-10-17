@@ -60,8 +60,6 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   background: #030505;
-  /* background: url('/background-sm.webp') no-repeat center black; */
-  /* background: url('/s1-boss-bg.webp') no-repeat center black; */
   background-size: 2000px;
   background-attachment: fixed;
   color: var(--c5);
@@ -90,12 +88,13 @@ body::before {
     );
   z-index: 1;
 
-  /* Season 1 bg stuff */
-  background: url('/s1-boss-bg.webp') no-repeat center 0% black;
+  /* Season 2 bg stuff */
+  background: url('/s2-bg.webp') no-repeat center 0% black;
   background-size: 2000px;
   background-attachment: fixed;
   translate: -20% 0%;
-  -webkit-mask-image: radial-gradient(black 30%, transparent);
+  -webkit-mask-image: radial-gradient(50% 100%, black 30%, transparent);
+  opacity: 0.75;
 }
 
 img {

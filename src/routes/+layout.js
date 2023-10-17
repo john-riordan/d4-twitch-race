@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 export async function load({ fetch }) {
-  const res = await fetch('/data/streamers-s1.json');
+  const res = await fetch('/data/streamers-s2.json');
   const streamers = await res.json();
 
   const liveRes = await fetch('/api/live');

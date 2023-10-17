@@ -3,7 +3,7 @@ import { json } from '@sveltejs/kit';
 import { PRIVATE_CLIENT_ID, PRIVATE_CLIENT_SECRET } from '$env/static/private';
 
 export async function GET({ fetch }) {
-  const res = await fetch('/data/streamers-s1.json');
+  const res = await fetch('/data/streamers-s2.json');
   const streamers = await res.json();
 
   const oAuthResponse = await fetch(

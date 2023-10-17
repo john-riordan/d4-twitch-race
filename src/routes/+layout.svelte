@@ -24,7 +24,7 @@
   <header>
     <img
       class="hero-logo"
-      src="/d4-season-1-emblem-logo-enus-2.webp"
+      src="/d4-season-2-emblem-logo-enus-2.webp"
       width="672"
       height="687"
       alt="Diablo 4 - Season of the Malignant"
@@ -32,7 +32,7 @@
     <!-- <img src="/d4-logo-sm.webp" alt="Diablo 4" class="hero-logo" width="400" height="187" /> -->
     <div>
       <h1 class="title">
-        Diablo 4 Season 1 Twitch Tracker
+        Diablo 4 Season 2 Twitch Tracker
       </h1>
       <br />
       {#if time}

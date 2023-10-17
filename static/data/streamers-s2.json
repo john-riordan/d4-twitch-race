@@ -1,0 +1,148 @@
+{
+  "updatedAt": 1697561869410,
+  "list": [
+    {
+      "name": "DatModz",
+      "level": 1,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/datmodz",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a6eee4a9-a2cc-466e-a68e-af773dd2eb1f-profile_image-70x70.png",
+      "id": "24124090",
+      "finish": 99
+    },
+    {
+      "name": "Quin69",
+      "level": 1,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": true,
+      "url": "https://twitch.tv/quin69",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2f5addde-fd0d-4a10-82a9-ea91ebb17f8d-profile_image-70x70.png",
+      "id": "56649026",
+      "finish": 99
+    },
+    {
+      "name": "Mathil",
+      "level": 1,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/mathil1",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/mathil1-profile_image-39376f797063a87b-70x70.jpeg",
+      "id": "25575995",
+      "finish": 99
+    },
+    {
+      "name": "Alkaizer",
+      "level": 1,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/alkaizerx",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/alkaizerx-profile_image-17c30e4f21d2dd67-150x150.jpeg",
+      "id": "35916854",
+      "finish": 99
+    },
+    {
+      "name": "Wudijo",
+      "level": 1,
+      "percent": 0,
+      "class": "rogue",
+      "hardcore": true,
+      "url": "https://twitch.tv/wudijo",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/12dff549-033e-4571-92c3-043af0ccf4c3-profile_image-150x150.png",
+      "id": "61438909",
+      "finish": 99
+    },
+    {
+      "name": "Raxxanterax",
+      "level": 1,
+      "percent": 0,
+      "class": "rogue",
+      "hardcore": false,
+      "url": "https://twitch.tv/raxxanterax",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
+      "id": "24482705",
+      "finish": 99
+    },
+    {
+      "name": "cArn",
+      "level": 1,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": true,
+      "url": "https://twitch.tv/carn_",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
+      "id": "19013029",
+      "finish": 99
+    },
+    {
+      "name": "Towelliee",
+      "level": 1,
+      "percent": 0,
+      "class": "druid",
+      "hardcore": false,
+      "url": "https://twitch.tv/towelliee",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-f9752afc441702cc-70x70.jpeg",
+      "id": "20694610",
+      "finish": 99
+    },
+    {
+      "name": "Rob",
+      "level": 1,
+      "percent": 0,
+      "class": "barb",
+      "hardcore": false,
+      "url": "https://twitch.tv/rob2628",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5f96899-40fe-4ec1-b566-e7cefea872c1-profile_image-70x70.png",
+      "id": "36998510",
+      "finish": 99
+    },
+    {
+      "name": "empyrian",
+      "level": 1,
+      "percent": 0,
+      "class": "rogue",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/empyriangaming",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a029c3d-93ab-4e43-8ea9-743ad9dad1a4-profile_image-70x70.png",
+      "id": "48631915",
+      "finish": 99
+    },
+    {
+      "name": "Ghazzy",
+      "level": 1,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/ghazzytv",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b89a28d-29b8-44d8-87c3-6054bc744018-profile_image-70x70.png",
+      "id": "23050280",
+      "finish": 99
+    },
+    {
+      "name": "AnnieFuchsia",
+      "level": 1,
+      "percent": 0,
+      "class": "sorc",
+      "hardcore": true,
+      "url": "https://www.twitch.tv/anniefuchsia",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0b82d54-7cf4-40af-9fd3-a3c613200877-profile_image-70x70.png",
+      "id": "61294188",
+      "finish": 99
+    },
+    {
+      "name": "Asmongold",
+      "level": 1,
+      "percent": 0,
+      "class": "necro",
+      "hardcore": false,
+      "url": "https://www.twitch.tv/zackrawrr",
+      "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a9ce83ba-c0bd-49cc-83bd-9d17647a211a-profile_image-70x70.png",
+      "id": "552120296",
+      "finish": 99
+    }
+  ]
+}
