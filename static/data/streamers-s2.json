@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1697664508075,
+  "updatedAt": 1697683469345,
   "list": [
     {
       "name": "DatModz",
-      "level": 75,
+      "level": 85,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 61,
+      "level": 72,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Mathil",
-      "level": 51,
+      "level": 55,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -58,7 +58,7 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 88,
+      "level": 97,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
@@ -69,7 +69,7 @@
     },
     {
       "name": "cArn",
-      "level": 84,
+      "level": 89,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 48,
+      "level": 50,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 57,
+      "level": 68,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -135,7 +135,7 @@
     },
     {
       "name": "Kripp",
-      "level": 84,
+      "level": 93,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -157,7 +157,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 61,
+      "level": 71,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
