@@ -1,9 +1,9 @@
 {
-  "updatedAt": 1697683469345,
+  "updatedAt": 1697739654950,
   "list": [
     {
       "name": "DatModz",
-      "level": 85,
+      "level": 87,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -14,7 +14,7 @@
     },
     {
       "name": "Quin69",
-      "level": 72,
+      "level": 78,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Mathil",
-      "level": 55,
+      "level": 59,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Alkaizer",
-      "level": 78,
+      "level": 93,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -58,18 +58,18 @@
     },
     {
       "name": "Raxxanterax",
-      "level": 97,
+      "level": 100,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
       "url": "https://twitch.tv/raxxanterax",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/e49dd78d-22be-4fd2-a6f0-0361bc408eb1-profile_image-150x150.png",
       "id": "24482705",
-      "finish": 99
+      "finish": 3
     },
     {
       "name": "cArn",
-      "level": 89,
+      "level": 91,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
@@ -80,7 +80,7 @@
     },
     {
       "name": "Towelliee",
-      "level": 50,
+      "level": 67,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 68,
+      "level": 72,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -146,7 +146,7 @@
     },
     {
       "name": "Steelmage",
-      "level": 77,
+      "level": 90,
       "percent": 0,
       "class": "sorc",
       "hardcore": true,
@@ -157,7 +157,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 71,
+      "level": 81,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
