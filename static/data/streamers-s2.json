@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1697739654950,
+  "updatedAt": 1697788076444,
   "list": [
     {
       "name": "DatModz",
@@ -10,11 +10,11 @@
       "url": "https://twitch.tv/datmodz",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/a6eee4a9-a2cc-466e-a68e-af773dd2eb1f-profile_image-70x70.png",
       "id": "24124090",
-      "finish": 99
+      "finish": 5
     },
     {
       "name": "Quin69",
-      "level": 78,
+      "level": 82,
       "percent": 0,
       "class": "druid",
       "hardcore": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "Mathil",
-      "level": 59,
+      "level": 70,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -36,14 +36,14 @@
     },
     {
       "name": "Alkaizer",
-      "level": 93,
+      "level": 91003,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/alkaizerx",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/alkaizerx-profile_image-17c30e4f21d2dd67-150x150.jpeg",
       "id": "35916854",
-      "finish": 99
+      "finish": 4
     },
     {
       "name": "Wudijo",
@@ -69,18 +69,18 @@
     },
     {
       "name": "cArn",
-      "level": 91,
+      "level": 100,
       "percent": 0,
       "class": "barb",
       "hardcore": true,
       "url": "https://twitch.tv/carn_",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf85e509-0efc-42d0-b4a4-7c9ccb961430-profile_image-150x150.png",
       "id": "19013029",
-      "finish": 99
+      "finish": 6
     },
     {
       "name": "Towelliee",
-      "level": 67,
+      "level": 71,
       "percent": 0,
       "class": "barb",
       "hardcore": false,
@@ -102,7 +102,7 @@
     },
     {
       "name": "Ghazzy",
-      "level": 72,
+      "level": 75,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
@@ -135,14 +135,14 @@
     },
     {
       "name": "Kripp",
-      "level": 93,
+      "level": 100,
       "percent": 0,
       "class": "necro",
       "hardcore": false,
       "url": "https://twitch.tv/nl_kripp",
       "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/401068e0-820a-4d9f-9e7c-1e5563398458-profile_image-70x70.png",
       "id": "29795919",
-      "finish": 99
+      "finish": 6
     },
     {
       "name": "Steelmage",
@@ -157,7 +157,7 @@
     },
     {
       "name": "Zizaran",
-      "level": 81,
+      "level": 88,
       "percent": 0,
       "class": "rogue",
       "hardcore": true,
