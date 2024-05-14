@@ -6,11 +6,13 @@
   export let data = {};
 
   let time = null;
+  let uuid = null;
 
   $: update = (time - data.streamers.updatedAt) / 1000 / 60;
 
   onMount(() => {
-    time = Date.now()
+    uuid = crypto.randomUUID();
+    time = Date.now();
   })
 
   function minsToHrs(minutes) {
@@ -18,9 +20,14 @@
     var remainingMinutes = Math.round(minutes % 60);
     return hours + " hours " + remainingMinutes + " minutes";
   }
+
 </script>
 
 <main class="app">
+
+  <a href="/auth/battlenet?uuid={uuid}">BattleNet OAuth</a>
+
+
   <header>
     <img
       class="hero-logo"
